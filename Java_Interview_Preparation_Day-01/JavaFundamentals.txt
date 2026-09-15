@@ -1,0 +1,245 @@
+1]Explain indetail about Java programming langauge,Along with syntax,compilation and execution of a java program ?
+
+->Java is an object-oriented,compiled,interpreted and high level programming language,using java we can develop web applications,enterprise applications
+android applictions and many more things,java is widely used in software development.
+
+->Java was introduced by sun-micro systems in the year 1995 USA, 
+but in the year 2010 java was owned by oracle corporation.
+
+->Java was originally developed by james gosling and team,intially the name of java is oak later it was renamed to java.
+
+->Java is also known as platform independent programming langauge,which means java can run on any operating system,if and only if JVM is installed on top of that
+operating system.
+
+->Java is also a case sensitive programming langauge which means it has seperate meaning for 'a' as well as 'A'.
+
+
+
+Coming to the Syntax of Java Program:-
+======================================
+
+->Inorder to write the java programs first of all we need to create the class and we can create the class by making use of "class" keyword and for every class
+thier will be a name,and the class name first letter should be of capital letter because of naming convention,if the class name is having the multiple words
+then the attaching word first letter should be capital letter,after sucessful creation of class we need to open the curly braces and in between this curly
+braces of the class we has to create the main method,after sucessful creation of main method we need to open the curly braces and in between this curly of the
+main method we use to write the main logic of the java program,and we has to save the java program with class name.
+
+
+
+Coming to the Compilation of Java Program:-
+===========================================
+
+
+->If we write the java programs on text editors then we need to make use of windows command prompt for both compilation as well as execution,but if we
+write the java programs on IDE[Integrated Development Environment] this is a place where the compilation is hidden and executes the java program
+if we want to compile an execute the java programs written on text editors,then first we need to open the windows command prompt and navigate to the path
+where java programs are saved,and for compilation we has to make use of one command like javac programname.java ,here javac stands for java compiler
+after sucessful compilation if we want the output then we has to make use of one more command like java program-name after typing this command if i hit
+on enter button then the windows command prompt will shows us the output
+
+
+
+
+Coming to the Execution of Java Program:-
+=========================================
+
+
+->As soon as we done writing the java program,the java program will be given to the java compiler and java compiler will generates a .class file after sucessfull
+compilation,inside this .class file thier is a byte code or we can also call it as intermediate level langauge,because it is not either in high level langauge or
+machine level langauge so we can call it as intermediate level langauge,and to convert this intermediate level langauge into machine level langauge we has to make
+use of one software called as JVM
+
+->JVM stands for java virtual machine,its primary responsibility is to execute the java byte code
+->When java source code is compiled,it converts into java byte code,the jvm takes the byte code and executes it on respective operating system
+->The important point to remember is that JVM is responsible to execute the java byte code and because different operating systems can have thier own JVM
+implementations,java achieves platform independence
+
+->JVM has 3 parts:-
+    1]CLSS
+    2]Memory Management
+    3]Execution Engine
+
+1]CLSS
+    ->CLSS stands for class loader subsystem
+    ->The main duty of the class loader subsystem is to load the .class files into JVM
+    ->After sucessful loading the .class files into JVM it performs verification for vulnerabilities
+
+JVM process the classes in 3 main phases:
+    Loading ---> Linking ---> Intialization
+
+
+2]Memory Management
+    
+    1]Method Area
+        ->static variables,static methods and class meta data
+    
+    2]Stack Area
+        ->Local Variables,Threads and Method calls
+
+    3]Heap Area
+        ->Instance Variables and Objects
+
+    4]Program Counters 
+        ->Program Counters stores the current and next instructions Threads
+
+    5]Native Method Area
+        ->Supports native code written by JNI
+
+
+3]Execution Engine
+
+    1]Interpreter
+        ->Interpreter interpretes the byte code line by line
+
+    2]JIT Compiler
+        ->JIT stands for Just In Time
+        ->JIT compiler compiles the frequently executed byte code into native code that improves the performance
+
+    3]Automatic Garbage Collection
+        ->It manages memory automatically by cleaning up the unused Objects
+
+
+->The most important thing in java programming is that if we make any changes in the java program,then first of all we has to save it and then compile again to
+reflect back those changes
+
+
+2]Explain features of java programming langauge ?
+
+->Java is having the features like
+    
+    1]Platform independent : Which means java can run on any operating system,if and only if JVM is installed on top of the operating system.
+
+
+    2]Object-Oriented Concepts : Since java is object-oriented programming langauge,it is having the object-oriented concepts like 
+                                    1]Abstraction
+                                    2]Encapsulation
+                                    3]Polymorphism
+                                    4]Inheritance
+    
+    3]Strongly typed langauge : Which means it requires the explicit declaration of variable type,it is used to catch the type related errors during the
+    compile Time.
+
+
+    4]Automatic Garbage Collection : It manages memory automatically by cleaning up the unused Objects.
+
+
+    5]Robust : Java can handle the errors gracefully and keeps running without crashing
+
+    6]Secure : Java is more secured programming langauge compared with other languages
+                
+                for an example: In c programming langauge thier is a concept called pointers which provide the direct access to the memory address,but in
+                java programming langauge thier is no concept called pointers so it is not possible to access directly.
+
+    7]Backward Compatability : Java supports older versions
+
+
+    8]Multithreading : Concurrent exeuction of several parts of the same program at the same time,this will improve the CPU Utilization.
+
+
+    9]WORA [Write Once RunAnywhere] : Java program written once can RunAnywhere irrespective of that machine is built upon
+
+        for an example: If i develop a java web application in windows operating system,the same application can also run in other operating systems like UNIX and MAC
+        if and only if JVM is installed on top of the operating system,which means here iam writing the java code only once in windows operating system,but the 
+        application is running on multiple operating systems ,so that we can say that the supports WORA feature.
+
+
+
+
+3]Explain JDK,JRE and JVM ?
+
+->JDK stands for Java Development Kit
+->JDK is mainly used by the Java Developers to develop the Java Applications
+->JDK is a combination of JRE + Development tools [JavaCompiler,Java Debugger and Java Application Launcher]
+
+
+->JRE stands for Java Runtime Environment
+->JRE is used to execute the Java programs
+->JRE is a combination of JVM + Runtime Libraries[java.io,java.util,java.lang]
+
+
+
+->JVM stands for Java virtual machine
+->The primary responsibility is to execute the java byte code
+->When Java source code is compiled,it converts into java byte code,the jvm takes the byte code and executes it on the respective operating system
+->The important point to remember is that JVM is responsible to execute the java byte code and because different operating systems can have different JVM implementations
+java achieves platform independence.
+
+
+JVM has 3 parts:-
+    1]CLSS
+    2]Memory Management
+    3]Execution Engine
+
+CLSS
+====
+->CLSS stands for Class loader subsystem
+->The main duty of the class loader subsystem is to load the .class files into JVM
+->After sucessfully loading the .class files into JVM,it performs verification for vulnerabilities
+
+->JVM process the classes in 3 main phases
+    ->Loading ---> Linking ---> Intialization
+
+
+
+
+
+Memory Management
+=================
+
+1]Method Area
+    ->Static Variables,Static Methods and class meta data
+
+2]Stack Area
+    ->Local Variables,Threads and Method calls
+
+3]Heap Area
+    ->Objects and Instance Variables
+
+4]Program Counters
+    ->Program Counters store the current and next instruction Threads
+
+5]Native Method Area
+    ->It supports the Native code written by JNI
+
+
+
+Execution Engine
+================
+
+1]Interpreter
+    ->Interpreter interpretes the byte code line by line
+
+2]JIT Compiler
+    ->JIT stands for Just In Time
+    ->JIT compiler compiles the frequently executed byte code into native code that improves the performance
+
+3]Automatic Garbage Collection
+    ->It manages memory automatically by cleaning up the unused Objects.
+
+
+
+4]What is platform dependent programming langauge ?
+
+->The programming langauge which expects the platform during compilation and execution to be same is called as platform dependent programming language or
+we can also call it as not portable programming langauge.
+
+for an example: c,c++ programming languages are not portable.
+
+
+
+5]What is platform independent programming langauge ?
+
+->The programming langauge which does not expects the platform during the compilation and execution to be same is called as platform independent programming langauge
+
+for an example : Java is an platform independent programming langauge
+
+->Java is also known as portable programming langauge,because if we share the compiled code of java to other computer the it will be executed,if and only if JVM is
+installed on top of the operating system.
+
+6]What is a Class and Object ?
+
+->Class is a plan or blueprint that defines the structure and behaviour of an object
+->It does not occupy any memory until an object is created out of it is called as a class.
+
+->An object is an instance of the class
+->Object is a real world entity that has state and behaviour,and memory is allocated once the object is created.
