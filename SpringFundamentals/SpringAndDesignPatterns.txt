@@ -1,0 +1,45 @@
+1]Explain indetail about Spring ?
+
+->spring is a powerful,lightweight,open source java framework used to build enterprise applications easily and efficiently
+
+->why spring ?
+    1]Before Spring framework was introduced,Developers used EJB(Enterprise Java Beans)
+    2]But in Enterprise Java Beans thier are lot of problems like:-
+        i)It is very complex to write
+        ii]To much boilerplate code
+        iii]Hard to test
+        iv)Heavy and Slow
+        v)tightly coupled
+        vi)It is also difficult to maintains
+->So to overcome all this problems which are thier in Enterprise Java Beans,in the year 2003 spring framework was introduced by John rodson
+->By making use of spring framework
+    i)It is very easy to write
+    ii)less boilerplate code compared with EJB
+    iii]Easy to test
+    iv)lightweight and fast
+    v)loosely coupled
+    vi)It is also easy to maintain
+
+
+2]Difference between Spring and SpringBoot ?
+
+1]In springframework we has to do lot of manual XML configurations,and we need to add the external server manually
+2]To create Spring project setup time is more
+3]Complexity is high
+4]springframework is used to develop large enterprise applications
+
+
+1]SpringBoot provides the auto configuration feature and thier is no need of adding the external server manually,it provides the embedded tomcat server
+2]To create SpringBoot project setup is less
+3]Complexity is simple
+4]SpringBoot is used to develop Modern Rest ApI's
+
+
+3]Explain Singleton design pattern ?
+
+->Singleton is a design pattern
+->Singleton ensures that a class has only one instance throught out the application and provides the global access point to it
+
+Why it is needed ?
+    ->Because some resource should exists only once like database connections,loggers etc
+    ->Creating multiple instance could waste memory and can cause the inconsistency
