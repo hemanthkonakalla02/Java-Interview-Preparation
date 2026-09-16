@@ -4,7 +4,7 @@ public class Employee
 
     private Employee()
     {
-
+         // Prevents object creation from outside the Employee class.
     }
 
     public static Employee getEmployee()
