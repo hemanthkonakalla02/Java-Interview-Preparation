@@ -1,0 +1,154 @@
+1]What is a variable,and types of variables in java ?
+
+->A variable is a name given to memory location to store given value or data
+->Using variables it is very easy to store and access the data from computer memory is called as a variable
+
+->In java thier are 3 types of variables
+    1]Local variable
+    2]Instance variable
+    3]Static variable
+
+1]Local variable
+    ->A variable which is declared inside a class and inside a method is called as a local variable
+    ->Local variable value scope is limited to the block,which means we cant access the local variable value from outside of the method
+    ->Local variables will not be intialized with default values automatically
+    ->We cannot use the local variables without intializing the value
+    ->Local variables are stored in stack area
+    ->Once the method has finished its execution,then local variables will be removed from the stack 
+
+2]Instance variable
+    ->A variable which is declared inside a class and outside a method without any keyword is called as a instance variable
+    ->To access the instance variable value from the main() method we need to create the object for the class,using this object we can
+    access the instance variable value from the main() method
+    ->Instance variables will be intialized with default values automatically
+    ->We can use instance variables without intializing any value
+    ->Instance variables are stored in the heap area
+    ->Memory  for instance variables are de-allocated by the garbage collector
+
+3]Static variable
+    ->A variable which is declared inside a class and outside a method with static keyword is called as a static variable
+    ->static variables are such variables which are common for all the objects
+    ->Static variables are stored in the method area
+
+
+2]What is OOP's ?
+
+->OOP stands for object oriented programming,which means working with the classes and objects instead of writing the coding logic manually
+->It follows bottom to top approach which means first we define the classes and then objects
+->In object oriented programming thier are 4 pillars:-
+    1]Abstraction
+    2]Encapsulation
+    3]Polymorphism
+    4]Inheritance
+
+
+
+->Explain indetail about Abstraction ?
+
+    1]Abstraction is the process of hiding the implementation details from the user, only the functionality will be provided to the user is 
+    called as Abstraction
+    2]Abstraction is the mechanism of declaring the abstract methods and concrete methods,declared abstract methods are implemented in its
+    child classes is called as Abstraction
+    3]In java we can achieve abstraction by making use of abstract classes,but by making use of abstract classes we cannot achieve 100%
+    abstraction or pure abstraction,because an abstract class can contains the concrete methods,but by making use of interface we can
+    achieve 100% abstraction or pure abstraction because an interface can have only abstract methods till java 7,but in java8 interfaces
+    where enhanced with default and static methods,In java9 interfaces where enhanced with private methods so abstraction is sliglty 
+    reduced.
+
+Abstract Class:
+---------------
+
+    1]If a class is declared using abstract keyword then it is called as abstract class
+    2]An abstract class can have abstract methods and concrete methods
+    3]The class derieved from abstract class must provide the implementation for those methods which are declared as abstract in the 
+    parent class
+    3]If the derieved class is not providing the implementation for the abstract methods then the derieved class should be declared as
+    abstract class
+
+
+Abstract Method:
+----------------
+    1]The method which has only declaration but no defination is called as abstract method
+
+
+Some rules of Abstract class:
+-----------------------------
+    1]According to the rule of abstraction,if in a class an abstract methos is present then it is mandatory to declare that class
+    as abstract class,Abstract class is a combination of abstract and concrete methods,we can also create the abstract class only with
+    concrete methods
+    2]Abstract class cannot be declared as final class,because final classes cannot be extended [which means not able to perform inheritance]
+    3]Abstract methods cannot be declared as final or static because in java we cannot override the final and static methods
+    
+    
+    
+->Explain indetail about Encapsulation ?
+
+	1]Encapsulation is the process of providing the security to the important data in a controlled manner
+	2]Security can be provided by using private access modifier and the controlled access is provided by
+	using public setters and getters
+	
+Setter
+------
+
+1]Setter is a method used to set the value for private attribute in a class
+2]They allow us to control the modification of attribute value by performing some operations or validations
+before assingning a new value
+3]Setter typically have void return type and accepts a parameter representing that new value to be assigned
+4]Setters are also known as mutators
+
+
+
+Getter
+------
+
+1]Getter is a method used to retrieve the private attribute value
+2]Getter provides read only access to the attribute value,allowing other classes to retrive the value without
+modifying it indirectly
+3]Getter has return type used to get the value
+4]Getters are also known as accessors
+
+
+
+->Explain indetail about Inheritance ?
+
+	1]Inheritance is the process of acquring the properties and behaviours of one class into another class
+	is called as inheritance
+	
+	2]The class which provides properties and behaviours is known as parent class or super class or base
+	class
+	
+	3]The class which will acquire properties or behaviours is knownn as child class or sub class or derieved
+	class
+	
+	4]In java we can achieve inheritance by making use of extends keyword
+	
+	5]Java supports 3 types of inheritance:-
+		1]Single level inheritance
+		2]Multi level inheritance
+		3]Hierarchical inheritance
+		
+Single level inheritance:-
+==========================
+	1]Having one parent class and one child class is called as single level inheritance
+	
+
+Multi level inheritance:-
+=========================
+	1]In java multi level inheritance is allowed,which means a child class can have a parent class and that
+	parent class will be having another parent class
+	
+
+Hierarchical inheritance:-
+==========================
+	1]Having one parent class and more than one child class is called as hierarchical inheritance
+	
+	
+
+Some rules of Inheritance
+-------------------------
+
+1]The private members of a class does not participate in inheritance
+2]During inheritance the constructors will not be inherited
+3]In java multiple inheritance is not allowed,which means a child class cannot extend more than one parent
+class
+4]In java cyclic inheritance is not allowed,because it leads to inconsistent hierarchy
