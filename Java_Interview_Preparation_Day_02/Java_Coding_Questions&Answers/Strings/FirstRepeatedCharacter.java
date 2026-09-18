@@ -7,7 +7,7 @@ public class FirstRepeatedCharacter
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a String:");
+		System.out.println("Enter a String:"); 
 		String s=sc.next().toLowerCase();
 		
 		char[] charArray = s.toCharArray();
