@@ -16,7 +16,7 @@ public class CountUpperCaseAndLowerCaseLetters
 		{
 			if(Character.isUpperCase(s.charAt(i)))
 			{
-				upperCount++;
+				upperCount++; 
 			}
 			else
 			{
