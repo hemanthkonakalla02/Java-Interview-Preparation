@@ -237,4 +237,4 @@ inside the same class is called as constructor overloading.
 5]What is method hiding ?
 
 ->In java we cannot override the static methods,but if i create the same static method in child class
-which was thier in parent class then it is not overriding,it is called as method hiding.
+which was thier in parent class then it is not overriding,it is called as method hiding.   
