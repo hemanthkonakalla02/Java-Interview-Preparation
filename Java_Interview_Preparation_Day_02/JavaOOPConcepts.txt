@@ -12,7 +12,7 @@
     ->A variable which is declared inside a class and inside a method is called as a local variable
     ->Local variable value scope is limited to the block,which means we cant access the local variable value from outside of the method
     ->Local variables will not be intialized with default values automatically
-    ->We cannot use the local variables without intializing the value
+    ->We cannot use the local variables without intializing the value 
     ->Local variables are stored in stack area
     ->Once the method has finished its execution,then local variables will be removed from the stack 
 
