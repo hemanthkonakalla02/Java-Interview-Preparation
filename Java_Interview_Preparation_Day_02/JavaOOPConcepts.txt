@@ -152,3 +152,89 @@ Some rules of Inheritance
 3]In java multiple inheritance is not allowed,which means a child class cannot extend more than one parent
 class
 4]In java cyclic inheritance is not allowed,because it leads to inconsistent hierarchy
+
+
+
+->Explain indetail about polymorphism ?
+
+	1]Polymorphism is the process of achieving 1:Many relationship in the program,which means one method
+	is taking multiple forms is known as polymorphism
+	2]In polymorphism thier are 2 types:-
+		i)MethodOverloading
+		ii)MethodOverriding
+		
+			MethodOverloading is also known as compile time polymorphism or early binding
+			MethodOverriding is also known as run time polymorphism or late binding
+			
+MethodOverloading:-
+===================
+	1]MethodOverloading is the process of creating multiple methods with the same name but with different
+	parameters inside the same class is called as method overloading
+	2]If java compiler see's the multiple methods is having same name then it will check for the following
+	3 things:-
+		1)no of parameters
+		2)datatype of parameters
+		3]order of datatype of parameters
+During method overloading the return type will not be checked only the parameters of a method will be
+checked.
+
+->How methodoverloading is resolved by the compiler ?
+
+Methodoverloading is resolved by the compiler during compile time based on the method signature
+compile will decides which overloaded method to call by matching no of parameters,datatype of parameters
+,order of datatype of parameters with arguments passed during the method call
+
+
+MethodOverriding:-
+==================
+
+1]MethodOverriding allows the child class to provide its own implementation.
+2]Using method overiding we can achieve runtime polymorphism
+3]During method overriding the parent class method and child class method should have the same return
+type or co-variant return type different return types are not allowed.
+4]Methodoverriding is achieved with parent and child class.
+
+
+->During method overriding visibility cannot be reduced rather the visibility should remains same or it
+can be increased.
+
+
+Co-Variant return type:-
+========================
+
+->Method Overriding allows the child class to change the return type of overriden method but only it
+should be the subclass of parent method return type.
+->Co-variant return type used with non-primitive datatypes,co-variant return type is not used with
+primitive datatypes.
+
+
+1]Can we overload the static methods ?
+->Yes,we can overload the static methods
+
+
+2]Can we overload the main() method in java ?
+->Yes,in java we can overload the main() method but by default such main() method will be called whose
+syntax matches with public static void main(String[] args),to call other main() methods we need to call
+them explicitly.
+
+
+3]Can we overload constructors ?
+->Yes,we can overload the constructors
+->Constructor overloading is the process of having multiple constructors with different parameters
+inside the same class is called as constructor overloading.
+
+	->why cant constructors cannot be overriden ?
+		1]Constructors cannot be overriden because constructors are not inherited by the child class
+		since method overriding requires inheritance,so constructors does not participate in inheritance
+		so constructor overriding is not possible.
+
+4]Can we overrride the static methods ?
+	->No,static methods cannot be overriden,because they belongs to the class rather than objects
+	method dispatch is resolved by the compiler during compile time based on the reference type,so
+	static methods are hidden,not overriden
+
+
+5]What is method hiding ?
+
+->In java we cannot override the static methods,but if i create the same static method in child class
+which was thier in parent class then it is not overriding,it is called as method hiding.
