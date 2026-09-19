@@ -117,4 +117,108 @@ UnBoxing:-
 ==========
 	->Unboxing is the process of automatically converting back the object of wrapper class into its
 	corresponding primitive datatype.
+
+
+5]Explain indetail about Strings in java ?
+
+	->A series of characters enclosed in double quotes is called as a String
+	->Strings are treated as objects in java,Strings are also known as array of characters
+	->In "c" programming language Strings are ended with null character,where as in java programming 
+	language Strings are not ended with null character
+	->In java thier are 2 types of Strings:-
+		i)Immutable Strings
+		ii)Mutable Strings
+		
+		
+Immutable Strings:-
+===================
+	->Immutable Strings are such Strings which cannot be modified after intialization,we can create
+	immutable Strings by making use of String class
+	->We can create the Strings in 2 ways
+		i) by using String literals
+		ii) by creating the object for the String class
+		
+	->The memory allocation for immutable Strings will take place inside the String constant pool of heap
+	area
+	->Whenever we create the String by making use of String literals then the String will be created in
+	String constant pool
+	->Duplicates are not allowed inside the String constant pool
+	->Whenever we create the String by creating the object for the String class,then the String will be
+	created in heap area
+	->Duplicates are allowed inside the heap area
 	
+->In java thier are 4 different ways of comparing the Strings:-
+	1]== will always check for the references of the String
+	2]equals() will always check for the String values
+	3]equalsIgnoreCase() method will ignore the case and then check for the String values
+	4]compareTo() is used to compare the Strings character by character and then decide that which
+	String is greater,here the comparision will happens based on the unicode value of the character
+	
+	
+->If String values are concatinated then the String will be created in String constant pool
+->while performing concatination if String references are used then always the String will be created in
+heap area
+
+->intern() is used to copy the String from heap area to String constant pool
+
+
+->If we try to modify the immutable String then the new String object will be created and previous String
+object will remains same as it is.
+
+->Stringtokenizer is an inbuilt class which is coming from java.util package
+->Stringtokenizer is used to chop the Strings at the specified character in the token.
+
+
+Mutable Strings:-
+=================
+
+	->Mutable Strings are such Strings which can be modified after intialization
+	->To create Mutable Strings thier are 2 classes in java:-
+		i)StringBuffer
+		ii)StringBuilder
+	->StringBuffer class and StringBuilder class in java is used to create the mutable sequence of
+	characters but their are few key difference between StringBuffer class and StringBuilder class
+	
+
+1]Synchronization
+	->StringBuffer is synchronized meaning it is thread safe,mutliple threads can access the method of
+	StringBuffer without causing the concurrence issue
+	->This comes up with performance overhead due to synchronization
+	
+	->StringBuilder is not synchronized meaning it is not thread safe,it is used when thread safety is
+	not a concern,as this performs faster than StringBuffer due to lack of synchronization overhead
+	
+	
+2]Performance
+	->StringBuffer is slower than StringBuilder because of synchronization
+	->StringBuilder is faster than StringBuffer because it does not have synchronization
+	
+
+3]Usage
+	->We use StringBuffer to modify the Strings in multithreaded enviornment where thread safety is a 
+	concern
+	->We use StringBuilder to modify the Strings in single threaded environment where thread safety is 
+	 not a concern
+	 
+	 
+StringBuffer and StringBuilder are inbuilt classes ,so they has inbuilt methods like:-
+	1]append()
+	2]insert()
+	3]reverse()
+	4]replace()
+	5]delete()
+	6]toString()
+	7]capacity()
+	
+	
+StringBuffer and StringBuilder has default capacity of 16
+
+
+
+**** Why Strings are immutable ? ****
+	->String class is immutable in java because it improves the performance and speed up the String
+	operations,it enables string pooling,optimize memory usage and prevents security vulnerabilties and
+	ensure thread safety.
+	
+	
+
