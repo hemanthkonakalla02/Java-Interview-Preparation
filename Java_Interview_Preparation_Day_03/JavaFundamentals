@@ -53,3 +53,10 @@ Non-Primitive datatypes:-
 	actually object itself will be created in heap area
 	
 for an examples: Class,Object,Array,String
+
+
+2]Explain what is Scanner in java ?
+
+	->Scanner is an inbuilt class which is coming from java.util package, and it is used to take the
+	dynamic inputs from the user,to make use of Scanner class in a program first we need to create the
+	object for it.
