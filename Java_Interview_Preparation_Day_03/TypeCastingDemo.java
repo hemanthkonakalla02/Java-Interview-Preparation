@@ -8,7 +8,7 @@ public class TypeCastingDemo
 		int a=1000;
 		long b=a;
 		
-		System.out.println("The value stored in variable a is :"+a); //1000
+		System.out.println("The value stored in variable a is :"+a); //1000 
 		System.out.println("The value stored in variable b is :"+b); //1000
 		
 		System.out.println("=======================================================");
