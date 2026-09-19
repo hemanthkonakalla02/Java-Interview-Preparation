@@ -9,7 +9,7 @@ public class PrimitiveDatatypes
 		int e;
 		long f; 
 		float g;
-		double h;
+		double h; 
 		
 	public static void main(String[] args) 
 	{
