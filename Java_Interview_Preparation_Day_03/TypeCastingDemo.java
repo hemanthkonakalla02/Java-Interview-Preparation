@@ -5,7 +5,7 @@ public class TypeCastingDemo
 	public static void main(String[] args) 
 	{
 		//implicit typecasting
-		int a=1000;
+		int a=1000; 
 		long b=a;
 		
 		System.out.println("The value stored in variable a is :"+a); //1000 
