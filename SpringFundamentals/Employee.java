@@ -1,6 +1,6 @@
 public class Employee
 {
-    private static volatile Employee emp;
+    private static volatile Employee emp; 
 
     private Employee()
     {
