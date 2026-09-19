@@ -9,7 +9,7 @@ public class ScannerDemo
 		Scanner sc = new Scanner(System.in); 
 		
 		System.out.println("Enter the marriage status:");
-		boolean a =sc.nextBoolean();
+		boolean a =sc.nextBoolean(); 
 		
 		System.out.println("Enter the house intial:");
 		char b = sc.next().charAt(0);
