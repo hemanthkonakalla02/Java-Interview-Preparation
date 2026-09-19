@@ -1,0 +1,120 @@
+1]Explain indetail about datatypes in java ?
+	
+	->In java datatype defines the type of value that a variable is storing and how much memory it is needed
+	is called as a datatype in java
+	->In java thier are 2 types of datatypes:-
+		i]Primitive datatypes
+		ii]Non Primitive datatypes
+		
+Primitive datatypes:-
+=====================
+
+	->Primitive datatypes are the most basic datatypes in java
+	->Primitive datatypes stores directly in memory and they has predefined size and range
+	->Primitive datatypes are most efficient in terms of memory usage and processing speed compared with
+	non-primitive datatypes
+	
+	->In Primitive thier are 8 types:-
+		1]boolean : is used to store true or false values
+		
+		2]char : is used to store single character in single quotes and it occupies 2 bytes in computer
+		memory
+		
+		3]byte : is used to store the integer values from the range -128 to +127 and it occupies 1 byte
+		in computer memory
+		
+		4]short : is used to the integer values from the range -32768 to +32767 and it occupies 2 bytes in
+		computer memory
+		
+		5]int : is used to store more integer values than "short" datatype and it occupies 4 bytes in
+		computer memory
+		
+		
+		6]long : is used to store more integer values than "int" datatype and it occupies 8 bytes in
+		computer memory,by default the value assigned to long will be treated as int value so we need to
+		specify "l" or "L" at suffix place
+		
+		
+		7]float : is used to store the floating point values and it occupies 4 bytes in computer memory
+		by default the value assigned to float will be treated as double value so we need to specify "f" or 
+		"F" at suffix place
+		
+		8]double : is used to store floating point values and it occupies 8 bytes in computer memory
+		
+
+		float store upto 7 decimal digits of precision 
+		double store upto 15 decimal digits of  precision 
+		
+
+Non-Primitive datatypes:-
+=========================
+
+	->Non-Primitive datatypes is used to store the reference of an object  in stack area and the 
+	actually object itself will be created in heap area
+	
+for an examples: Class,Object,Array,String
+
+
+2]Explain what is Scanner in java ?
+
+	->Scanner is an inbuilt class which is coming from java.util package, and it is used to take the
+	dynamic inputs from the user,to make use of Scanner class in a program first we need to create the
+	object for it.
+
+
+	
+	
+3]Explain indetail about typecasting ?
+
+	1]Typecasting is the process of converting one datatype into another datatype is called as typecasting
+	2]In java thier are 2 types of typecasting:-
+		i)implicit typecasting
+		ii]explicit typecasting
+		
+Implicit typecasting:-
+======================
+->Implicit typecasting is the process of converting the smaller datatypes into larger datatypes is called
+as implicit type casting
+
+
+Explicit typecasting:-
+======================
+->Explicit typecasting is the process of converting the larger datatypes into smaller datatypes is called as
+explicit typecasting, and this has to be done forecefully by the programmer
+->During explicit type casting thier is a chance of dataloss
+
+
+->Among all the 8 primitive datatypes boolean datatype is a datatype which does not participate in
+typecasting let it be implicit typecasting or explicit typecasting
+
+->Whenever a char datatype is tried to be converted to other datatype,then that particular character
+unicode value will be stored.
+
+
+
+
+4]Is java 100% pure object oriented programming language ?
+	->No,java is not 100% pure object oriented programming language because java supports primitive data
+	types,although java is not 100% pure object oriented then also we can make java project as 100%
+	pure object oriented by making use of a concept called as wrapper classes.
+	
+->Explain indetail about Wrapper classes ?
+	1]In java wrapper class is a class that provides object representation for primitive datatypes
+	java includes a set of 8 built in primitive datatypes like boolean,char,byte,short,int,long,float
+	and double which represents single value,but this wrapper classes allows this primitive datatypes
+	to be treated as objects
+	
+	2]It supports autoboxing and unboxing
+	
+
+AutoBoxing:-
+============
+	->Autoboxing is the process of automatically converting the primitive datatype into its corresponding
+	wrapper class object 
+	
+
+UnBoxing:-
+==========
+	->Unboxing is the process of automatically converting back the object of wrapper class into its
+	corresponding primitive datatype.
+	
