@@ -7,7 +7,7 @@ public class PrimitiveDatatypes
 		byte c;
 		short d;
 		int e;
-		long f;
+		long f; 
 		float g;
 		double h;
 		
