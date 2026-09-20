@@ -9,7 +9,7 @@
 Primitive datatypes:- 
 ===================== 
 
-	->Primitive datatypes are the most basic datatypes in java
+	->Primitive datatypes are the most basic datatypes in java 
 	->Primitive datatypes stores directly in memory and they has predefined size and range
 	->Primitive datatypes are most efficient in terms of memory usage and processing speed compared with
 	non-primitive datatypes
