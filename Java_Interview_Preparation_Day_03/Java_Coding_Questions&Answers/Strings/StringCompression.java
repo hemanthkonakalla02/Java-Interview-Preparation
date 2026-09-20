@@ -2,7 +2,7 @@ package com.java.coding.string;
 
 public class StringCompression 
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)  
 	{
 		String s ="abbcccdddd";
 		StringBuilder sb =new StringBuilder();
