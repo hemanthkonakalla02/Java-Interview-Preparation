@@ -7,7 +7,7 @@ public class LongestCommonPrefix
 	public static void main(String[] args) 
 	{
 		String arr[]= {"class","clove","club"}; //cl
-		findingLongestCommonPrefix(arr);
+		findingLongestCommonPrefix(arr); 
 		
 	}
 	
