@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+<!-- byType  uses class name-->
+
+<!--    		<bean id="emp" class="com.spring.autowire.Employee" autowire="byType">
+   			<property name="eid" value="101"></property>
+   			<property name="name" value="HemanthKumarKonakalla"></property>
+   			<property name="salary" value="95000"></property>
+   			<property name="dept" value="SoftwareDevelopment"></property>
+   		
+   		</bean>
+   		
+   		<bean id="comp" class="com.spring.autowire.Company" autowire="byType">
+   			<property name="companyName" value="Infosys"></property>
+   			<property name="companyType" value="SoftwareServices"></property>
+   			<property name="ceo" value="NarayanaMurthy"></property>
+   		</bean>
+   		
+   		<bean id="addr" class="com.spring.autowire.Address">
+   			<property name="streetName" value="AshokNagar"></property>
+   			<property name="landMark" value="Near TTD Kalyana Mandapam"></property>
+   			<property name="pincode" value="534312"></property>
+   		</bean> -->
+   
+   
+ 
+ 
+ 
+   		
+<!-- byName field and id should match then only it works-->
+<!--       	<bean id="emp" class="com.spring.autowire.Employee" autowire="byName">
+   			<property name="eid" value="101"></property>
+   			<property name="name" value="HemanthKumar K"></property>
+   			<property name="salary" value="95000"></property>
+   			<property name="dept" value="SoftwareDevelopment"></property>
+   		
+   		</bean>
+   		
+   		<bean id="company" class="com.spring.autowire.Company" autowire="byName">
+   			<property name="companyName" value="Infosys"></property>
+   			<property name="companyType" value="SoftwareServices"></property>
+   			<property name="ceo" value="NarayanaMurthy"></property>
+   		</bean>
+   		
+   		<bean id="address" class="com.spring.autowire.Address">
+   			<property name="streetName" value="AshokNagar"></property>
+   			<property name="landMark" value="Near TTD Kalyana Mandapam"></property>
+   			<property name="pincode" value="534312"></property>
+   		</bean> -->
+  
+  
+  
+  
+  
+   		
+  <!-- constructor-arg must have parameterised constructor-->
+  
+        	<bean id="emp" class="com.spring.autowire.Employee" autowire="constructor">
+   			<constructor-arg index="0" value="15"></constructor-arg>
+   			<constructor-arg index="1" value="hemanthkumar konakalla"></constructor-arg>
+   			<constructor-arg index="2" value="75000"></constructor-arg>
+   			<constructor-arg index="3" value="softwareDevelopment"></constructor-arg>
+   		</bean>
+   		
+   		<bean id="company" class="com.spring.autowire.Company" autowire="constructor">
+   			<constructor-arg  index="0" value="Infosys"></constructor-arg>
+   			<constructor-arg  index="1"  value="SoftwareServices"></constructor-arg>
+   			<constructor-arg  index="2"  value="NarayanaMurthy"></constructor-arg>
+   		</bean>
+   		
+   		<bean id="address" class="com.spring.autowire.Address">
+   			<constructor-arg index="0" value="AshokNagar"></constructor-arg>
+   			<constructor-arg index="1" value="Near TTD Kalyana Mandapam"></constructor-arg>
+   			<constructor-arg index="2" value="534312"></constructor-arg>
+   		</bean>
+</beans>
