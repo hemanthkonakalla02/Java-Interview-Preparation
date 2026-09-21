@@ -9,7 +9,7 @@ public class StringRotation
 		
 		if(s1.length()!=s2.length())
 		{
-			System.out.println("String length is not matching so Strings are not Rotational");
+			System.out.println("String length is not matching so Strings are not Rotational"); 
 			return;
 		}
 		
