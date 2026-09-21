@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+<!-- List -->
+
+<!--   <bean id="emp" class="com.spring.Employee">
+    
+  set the values using setter
+   
+   		<property name="eid" value="101"></property>
+    		<property name="name" value="HemanthKumarKonakalla"></property>
+    		<property name="salary" value="95000"></property>
+    		<property name="dept" value="SoftwareDevelopment"></property>
+    		<property name="skills">
+    			<list>
+    				<value>Java8/17</value>
+    				<value>SQL</value>
+    				<value>Hibernate</value>
+    				<value>SpringFramework</value>
+    				<value>SpringBoot</value>
+    				<value>Maven</value>
+    				<value>Linux</value>
+    				<value>JDBC</value>
+    				<value>Docker</value>
+    				<value>AWS</value>
+    				<value>MicroServices</value>
+    			</list>
+    		</property> -->
+    		
+    		
+<!--  set the values using constructor-arg  -->
+
+<!--  		<constructor-arg value="15"></constructor-arg>
+			<constructor-arg value="HemanthKumarKonakalla"></constructor-arg>
+			<constructor-arg value="90000"></constructor-arg>
+			<constructor-arg value="SoftwareDevelopment"></constructor-arg>
+			<constructor-arg>
+				<list>
+					<value>CoreJava8/17</value>
+					<value>SQL</value>
+					<value>JDBC</value>
+					<value>Hibernate</value>
+					<value>SpringFramework</value>
+					<value>SpringBoot</value>
+					<value>Maven</value>
+					<value>Linux</value>
+					<value>AWS</value>
+					<value>Docker</value>
+					<value>Microservices</value>
+				</list>
+			</constructor-arg>
+    </bean>  -->
+    
+ 
+    
+<!-- Set -->
+<!--     <bean id="emp" class="com.spring.Employee">
+
+
+set the values using setter
+
+    <property name="eid" value="101"></property>
+    		<property name="name" value="HemanthKumar K"></property>
+    		<property name="salary" value="95000"></property>
+    		<property name="dept" value="SoftwareDevelopment"></property>
+    		<property name="skills">
+    			<set>
+    				<value>Java8/17</value>
+    				<value>SQL</value>
+    				<value>JDBC</value>
+    				<value>Hibernate</value>
+    				<value>SpringFramework</value>
+    				<value>SpringBoot</value>
+    				<value>Maven</value>
+    				<value>Linux</value>
+    				<value>AWS</value>
+    				<value>Docker</value>
+    				<value>MicroServices</value>
+    				<value>MicroServices</value>
+    			</set>
+    		</property>
+    		
+    		
+sets the value using constructor-arg  
+ 		
+    		<constructor-arg value="1"></constructor-arg>
+    		<constructor-arg value="HemanthKumarKonakalla chinni"></constructor-arg>
+    		<constructor-arg value="150000"></constructor-arg>
+    		<constructor-arg value="SoftwareDevelopment"></constructor-arg>
+    		<constructor-arg>
+    			<set>
+    				<value>CoreJava 8/17</value>
+    				<value>SQL</value>
+    				<value>JDBC</value>
+    				<value>Hibernate</value>
+    				<value>Springframework</value>
+    				<value>SpringBoot</value>
+    				<value>Docker</value>
+    				<value>AWS</value>
+    				<value>MicroServices</value>
+    				<value>Maven</value>
+    				<value>Linux</value>
+    				<value>Linux</value>
+    			</set>
+    		</constructor-arg>
+    
+    </bean>  -->
+
+
+
+<!-- Map -->
+
+<!--  sets the value using setter -->   
+     <bean id="emp" class="com.spring.Employee">
+<!--     
+		<property name="eid" value="15"></property>
+    		<property name="name" value="HemanthKumaar K"></property>
+    		<property name="salary" value="150000"></property>
+    		<property name="dept" value="SoftwareDevelopment"></property>
+    		<property name="skills">
+    			<map>
+    				<entry key="1" value="CoreJava8/17"></entry>
+    				<entry key="2" value="SQL"></entry>
+    				<entry key="3" value="JDBC"></entry>
+    				<entry key="4" value="Hibernate"></entry>
+    				<entry key="5" value="Springframework"></entry>
+    				<entry key="6" value="SpringBoot"></entry>
+    				<entry key="7" value="Maven"></entry>
+    				<entry key="8" value="Linux"></entry>
+    				<entry key="9" value="AWS"></entry>
+    				<entry key="10" value="Docker"></entry>
+    				<entry key="11" value="MicroServices"></entry>
+    			</map>
+    		</property> -->
+    		
+<!-- set the values using constructor-arg  -->
+
+	<constructor-arg value="2"></constructor-arg>
+	<constructor-arg value="HemanthKumarChinni"></constructor-arg>
+	<constructor-arg value="150000"></constructor-arg>
+	<constructor-arg value="SoftwareDevelopment"></constructor-arg>
+	<constructor-arg>
+		<map>
+			<entry key="1" value="CoreJava8/17"></entry>
+			<entry key="2" value="SQL"></entry>
+			<entry key="3" value="JDBC"></entry>
+			<entry key="4" value="Hibernate"></entry>
+			<entry key="5" value="Springframework"></entry>
+			<entry key="6" value="SpringBoot"></entry>
+			<entry key="7" value="Maven"></entry>
+			<entry key="8" value="AWS"></entry>
+			<entry key="9" value="MicroServices"></entry>
+			<entry key="10" value="Docker"></entry>
+			<entry key="11" value="Git,GitHub"></entry>
+
+		</map>
+	</constructor-arg>
+	
+	
+    </bean>
+
+</beans>
