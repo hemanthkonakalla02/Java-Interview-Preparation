@@ -110,3 +110,38 @@ switch statement:-
 	case is true,then it will execute the default statement,and to prevent the control falling to the
 	subsequent cases we use break.
 		
+
+
+3]Explain indetail about iterating statements in java ?
+
+	->Iterating statements are also known as looping statements
+	->Looping statements is used to execute the given code again and again until the specified condition
+	evaluates to false
+	->In java thier are 3 types of looping statements:
+		i)for loop
+		ii)while loop
+		iii)do while loop
+		
+
+for loop:-
+==========
+	1]for loop keeps on executing the code until the specified sequence exhausts
+	2]for loop has 3 parts:
+		i)intialization
+		ii)condition
+		iii)incrementation/decrementation
+	3]for loop is also known as entry control loop.
+	
+
+while loop:-
+============
+	1]while loop keeps on executing the code continously until the specified condition evaluates to false
+	2]while loop is also known as entry control loop.
+	
+	
+	
+do while loop:-
+===============
+	1]do-while loop is similiar to while loop but it gurantees that the code present inside the loop will
+	executes atleast once before the condition is tested
+	2]do while loop is also known as exist control loop.
