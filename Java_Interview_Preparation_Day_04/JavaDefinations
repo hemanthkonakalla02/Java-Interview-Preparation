@@ -101,7 +101,7 @@ Nested if statement:-
 	2)if the first if condition is true,then only the control will enters the inner if condition
 	3)if the first if condition is false then the control will execute the first if,else block statements
 	4)if the inner if condition is true then only the control will execute the inner if statements
-	5)if the inner if condition is false then the control will execute the inner if,else block statements
+	5)if the inner if condition is false then the control will execute the inner if,else block statements 
 	
 	
 switch statement:-
