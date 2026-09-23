@@ -66,4 +66,47 @@
 		->Post decrementation is the process of using the value first and then decrementing the value by 1
 		->Pre decrementation is the process of decrementing the value by 1 and then using it
 		->for both post and pre decrementation we use -- symbol
+
+2]Explain indetail about conditional statements in java ?	
+
+	->Conditional statements are also known as decision making statements in java
+	->In java thier are 5 decision making statements:-
+		i)Simple if statement
+		ii)if-else statement
+		iii]if-else-if statement
+		iv]Nested if statement
+		v)switch statement
+		
+Simple if statement:-
+====================
+	1)if statement is used to test a specific condition,if the condition is true,if block code will get
+	executed,if the condition is false then the control will execute the remaning statements after if
+	block
+	
+if else statement:-
+===================
+	1)if else statement is used to test a specific condition,if the condition is true,if block code will
+	get executed,if the condition is false then else block code will get executed.
+	
+
+if else if statement:-
+======================
+	1)if else if statement is used to check multiple conditions and execute the specific block of statements
+	dependending upon on true condition among them.
+	
+	
+Nested if statement:-
+=====================
+	1)Having if statement in another if is called as nested if statement
+	2)if the first if condition is true,then only the control will enters the inner if condition
+	3)if the first if condition is false then the control will execute the first if,else block statements
+	4)if the inner if condition is true then only the control will execute the inner if statements
+	5)if the inner if condition is false then the control will execute the inner if,else block statements
+	
+	
+switch statement:-
+==================
+	1)Switch statement is used to check multiple cases and execute the true case among them,if none of the
+	case is true,then it will execute the default statement,and to prevent the control falling to the
+	subsequent cases we use break.
 		
