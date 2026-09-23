@@ -67,6 +67,9 @@
 		->Pre decrementation is the process of decrementing the value by 1 and then using it
 		->for both post and pre decrementation we use -- symbol
 
+
+
+
 2]Explain indetail about conditional statements in java ?	
 
 	->Conditional statements are also known as decision making statements in java
@@ -145,3 +148,49 @@ do while loop:-
 	1]do-while loop is similiar to while loop but it gurantees that the code present inside the loop will
 	executes atleast once before the condition is tested
 	2]do while loop is also known as exist control loop.
+
+
+
+
+4]Explain what is break in java ?
+
+	->Break statement is used to exist from a loop or switch statement prematurely
+	->It stops the execution and transfers the control to the next statement after the loop/switch statement.
+
+
+
+
+5]Explain what is continue in java ?
+
+	->Continue statement is used to skip the current iteration of a loop
+	->It does not terminates the loop but it just skips the remaining code for that iteration.
+
+
+
+
+6]Explain indetail about comments in java ?
+
+	->In java comments are used to show the purpose of the code and prevents certain lines from the execution
+	->In java thier are 3 types of comments:-
+		i)Single line comment
+		ii)Multi line comments
+		iii)Documentational comments
+		
+		
+->Singleline comment:-
+======================
+	i)Single line comment is used to comment single line of code
+	ii)Single comment starts with // and continues to the end of the line
+	iii)The main purpose of the single line comment is to explain code in short
+	
+
+->Multiline comment:-
+======================
+	i)Multiline comment is used to comment multiple lines of code
+	ii)Multiline comment starts with /* and ends with */
+	iii)The main purpose of the multiline comment is to explain larger section of code
+	
+->Documentational comment:-
+===========================
+	i)Documentational comments are used to generate HTML documentation
+	ii)Documentational comments starts with /** and ends with */
