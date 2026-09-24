@@ -194,3 +194,23 @@ do while loop:-
 ===========================
 	i)Documentational comments are used to generate HTML documentation
 	ii)Documentational comments starts with /** and ends with */
+
+
+7]Explain indetail about Array in java ?
+
+	->An array is an collection of homogeneous data elements which means an array can store only single
+	type of values and arrays are treated as objects in java hence to create an array we has to make use of
+	new keyword,Array stores the values in contiginous memory locations
+	->Java supports different types of arrays:-
+		1]2d Array
+		2]Jagged Array
+		3]3d Array
+		
+->The 2 dimensional array in java programming is an array of array,in 2d array the data can be stored in rows
+and columns and we can access the index by using both row index and column index
+
+
+->The jagged array is an array of array,such that members arrays can be of different sizes
+
+
+->The 3d array is an collection of 2d array,The 3d array is also known as multidimensional array.
