@@ -7,7 +7,7 @@ public class ThreeDimensionalArrayExample1
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the no of schools:");
+		System.out.println("Enter the no of schools:"); 
 		int n1=sc.nextInt();
 		System.out.println("Enter the no of branches that belongs to each school:");
 		int n2=sc.nextInt();
