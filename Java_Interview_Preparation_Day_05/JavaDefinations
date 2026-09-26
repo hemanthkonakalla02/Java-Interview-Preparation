@@ -44,5 +44,23 @@ Arguments:-
 	known as actual arguments.
 	
 	
-	
+2]List few inbuilt methods of String class ?
+
+	->String class is having lot of inbuilt methods few of them are like:-
+			1)length()
+			2)charAt()
+			3]isEmpty()
+			4]isBlank()
+			5]contains()
+			6]startsWith()
+			7]endsWith()
+			8]indexOf()
+			9]lastIndexOf()
+			10]equals()
+			11]equalsIgnoreCase()
+			12]substring()
+			13]replace()
+			14]replaceFirst()
+			15]toUpperCase()
+			16]toLowerCase()	
 	
