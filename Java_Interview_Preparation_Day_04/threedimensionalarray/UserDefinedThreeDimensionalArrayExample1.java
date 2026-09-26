@@ -9,7 +9,7 @@ public class UserDefinedThreeDimensionalArrayExample1
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the companies:");
 		int n1=sc.nextInt();
-		System.out.println("Enter the no branches that belongs to each company:");
+		System.out.println("Enter the no branches that belongs to each company:"); 
 		int n2=sc.nextInt();
 		System.out.println("Enter the no of employees that belongs to each branch of company:");
 		int n3=sc.nextInt();
