@@ -55,7 +55,7 @@ Arguments:-
 			6]startsWith()
 			7]endsWith()
 			8]indexOf()
-			9]lastIndexOf()
+			9]lastIndexOf() 
 			10]equals()
 			11]equalsIgnoreCase()
 			12]substring()
