@@ -10,7 +10,7 @@
 	->If  a method is not returning anything then the return type should be void
 	->If a method returns the value then the return type should be the type of value
 	->If a method does not accept any parameters then it should be empty of blank If method accepts parameters 
-		then the respective values or variables should be kept inside the parenthesis
+		then the respective values or variables should be kept inside the parenthesis 
 	->On the basis of no of parameters and return type of a method thier are 4 types of methods
 		
 		i]Type-1 method
