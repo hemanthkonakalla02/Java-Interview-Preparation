@@ -78,3 +78,17 @@ Arguments:-
 	but private fields with public setters and getters is a best practice
 	->POJO class gives full control over the datamembers
 	->POJO class cannot be called as JavaBeans,but all JavaBeans are Pojo's
+
+
+
+4]Explain what is Bean class ?
+
+	->Bean classes are such java classes that have private fields,no argument constructor,public setters and
+	getters to access the private data members,and implementing the serializable interface
+	->Bean class must have private data members
+	->Bean class must have No arg constructor
+	->Bean class must have public setters and getters
+	->Bean class must implements Serializable interface
+	->Bean class provides the controlled access to private fields using setters and getters
+	->Bean classes are called as Pojo's
+
