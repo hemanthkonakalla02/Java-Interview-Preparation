@@ -63,4 +63,18 @@ Arguments:-
 			14]replaceFirst()
 			15]toUpperCase()
 			16]toLowerCase()	
-	
+
+
+3]Explain what is POJO class ?
+
+	->POJO stands for plain old java object
+	->POJO classes are simple java classes that holds data and have no specific restrictions
+	->POJO class may or many not have:-
+		i)Data members
+		ii)No args constructor
+		iii)Public setters and getters
+		iv)Implementing the serializable interface
+	->POJO class have any access modifiers for data members like(public,private,protected and default)
+	but private fields with public setters and getters is a best practice
+	->POJO class gives full control over the datamembers
+	->POJO class cannot be called as JavaBeans,but all JavaBeans are Pojo's
