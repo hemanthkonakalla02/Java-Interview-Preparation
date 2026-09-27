@@ -6,7 +6,7 @@ public class Employee implements Serializable
 {
 	private int eid;
 	private String name;
-	private float salary;
+	private float salary; 
 	private String dept;
 	
 	public Employee()
