@@ -92,3 +92,24 @@ Arguments:-
 	->Bean class provides the controlled access to private fields using setters and getters
 	->Bean classes are called as Pojo's
 
+
+5]Explain indetail about Constructor ?
+
+	->Constructor is a special method used to intialize objects,which dont have return type and the name of the
+	constructor should be same as of the class name,and the constructor will be called during the object 
+	creation
+	->In java thier are 2 types of constructors :-
+		i)Zero parameterised constructor
+		ii)parameterised constructor
+		
+Zero parameterised constructor:-
+================================
+	->Zero parameterised constructor is one that requires no arguments to be passed
+	
+Parameterised constructor:-
+===========================
+	->Paremeterised constructor is a constructor that requires specific number of arguments to be passed
+	
+	
+->If a java programmer is not providing any constructor in the class,then java compiler will attaches the
+default constructor and default constructor will have zero parameters and first line will be of super().
