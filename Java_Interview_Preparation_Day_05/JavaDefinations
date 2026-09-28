@@ -138,3 +138,11 @@ default constructor and default constructor will have zero parameters and first 
 	present
 	
 	->this() or super() should be present at the first line of the constructor
+
+
+
+8]Explain indetail super in java ?
+
+	->super is a keyword in java
+	->super keyword is used to access the parent class instance members like (variables,methods,constructors)
+	from child class constructor or child class instance method.
