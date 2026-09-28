@@ -113,3 +113,16 @@ Parameterised constructor:-
 	
 ->If a java programmer is not providing any constructor in the class,then java compiler will attaches the
 default constructor and default constructor will have zero parameters and first line will be of super().
+
+
+
+
+6]Explain indetail about shadowing problem ?
+
+	->When constructor parameters are having the same name as instance variable names then java gives
+	priority to local variables is called as shadowing problem
+	->Due to shadowing problem the instance variables will not get updated with the values which are passed to
+	the constructor
+	->Shadowing problem can be resolved by making use of "this" in java
+	->"this" is a variable in java which will hold the address of current object and "this" is always associated
+	with instance variables.
