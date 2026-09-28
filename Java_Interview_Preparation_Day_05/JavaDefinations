@@ -126,3 +126,15 @@ default constructor and default constructor will have zero parameters and first 
 	->Shadowing problem can be resolved by making use of "this" in java
 	->"this" is a variable in java which will hold the address of current object and "this" is always associated
 	with instance variables.
+
+
+
+7]Explain indetail about constructor chaining ?
+
+	->Constructor chaining is the process of calling one constructor from another constructor either with in
+	the same class using this() or from sub class constructor to parent class constructor using super().
+	
+	->this() and super() should not be present at the same time in the constructor only any one of them should
+	present
+	
+	->this() or super() should be present at the first line of the constructor
