@@ -30,7 +30,7 @@
 
 4]5XX
     i)500 --> Internal Server Error,Something went wrong on server
-    ii)501 -->Not supported,Server does not support this feature
+    ii)501 -->Not implemented,Server does not support this feature
     iii)502 --> BadGateway ,invalid response from upstream server
     iv)503 --> Service unavailable ,Server is down or unavailable
     v]504 -->Gateway time out,Server will not get the response in time
