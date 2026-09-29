@@ -6,7 +6,7 @@
 		i)MethodName
 		ii)Return type of a method
 		iii)Parameters of a method
-		iv)Method Body or Method Defination
+		iv)Method Body or Method Defination 
 	->If  a method is not returning anything then the return type should be void
 	->If a method returns the value then the return type should be the type of value
 	->If a method does not accept any parameters then it should be empty of blank If method accepts parameters 
