@@ -38,3 +38,12 @@
 
 
 
+HttpMethods
+-----------
+
+
+1)Get : Server sends some data to client
+2)Post : client sends some data to be saved at server
+3)Put : client sends some modified data
+4}delete : clients ask to delete some data from server
+
