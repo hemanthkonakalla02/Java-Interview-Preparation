@@ -123,3 +123,74 @@ Static-Method
 	->Since it is an inbuilt class it is having the inbuilt methods like max(),min(),ceil(),floor(),round(),
 	abs(),sqrt()
 	->All the methods are static methods so to call them we has to use Math class
+
+
+8]What are packages ?
+	->A package as a name suggest it is group of classes,interfaces and other sub packages
+	->In java we use packages to organize our classes and interfaces
+	->In java thier are 2 types of packages:-
+		i)Built in packages
+		ii)User defined packages
+		
+	->Built in packages are provided by java api
+	
+	few examples:java.io,java.util and java.lang
+	
+	->UserDefined packages are created by the developers by thier own.
+	
+	
+9]Explain indetail about access modifiers ?
+	
+	->Access modifiers are also known as access specifiers in java
+	->Access specifiers is used to define the level of accessibility of either the members of class/interface 
+	or the level of accessibility of class/interface in a package
+	->Java provides 4 level of access modifiers with 3 keywords:-
+		1]public access modifier
+			->Public access modifier can be accessed anywhere inside the project
+			->Public access modifier is used with class,interface,variable,method and constructor
+		
+		2]protected access modifier
+			->Protected access modifier can be accessed anywhere inside the same package and the child class
+			of different package
+			->Protected access modifier is used with variable,method and constructor
+			
+		3]default access modifier
+			->Default access modifier can be accessed only with the same package,hence it is also known as
+			package level access modifier
+			->Default access modifier is used with class,interface,variable,method and constructor
+		
+		4]private access modifier
+			->Private access modifier can be accessed only with in the same class
+			->Private access modifier is used with variable,method and constructor.
+			
+			
+10]Explain what is final in java ?
+
+	->final is a keyword in java
+	->final is used with class,variable and method
+
+final class:-
+=============	
+->If a class is declared with final keyword then it is called as final class and final class cannot be
+extended which means we are not able to perform inheritance on final class.
+
+final variable:-
+================
+->If a variable is declared with final keyword then it is called as final variable and final variable value
+cannot be modified.
+
+final method:-
+==============
+->if a method is declared with final keyword then it is called as final method and final method cannot be
+overriden.
+
+11]Difference between this() method call and this keyword ?
+	->"this" keyword is used to resolve the shadowing problem
+	->this() is used to call one constructor from another constructor with in the same class.
+	
+
+12]Difference between super() method call and super keyword ?  
+		->"super" keyword is used to access the parent class instance members like variables,methods and
+		constructors from child class constructor or child class instance method
+		
+		->super() is used to call the parent class constructor from child class constructor 
