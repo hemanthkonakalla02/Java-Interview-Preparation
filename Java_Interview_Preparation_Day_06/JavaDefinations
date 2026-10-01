@@ -1,0 +1,196 @@
+1]Explain indetail about static in java ?
+	
+	->static is a keyword in java,that can be used with variables,methods,blocks and nested classes,which means
+	the members belongs to the class rather than the instance of the class,As a result it can be accessed without
+	creating the object for the class.
+	
+	->To create static vaariables,static methods and static blocks "static" keyword is used with them
+	
+	->static variables,static methods and static blocks are stored in method area
+	
+	->The complete program execution will happens in the following sequence
+		i)JVM is the process that runs on the Operating system which manages different memory areas like
+		method area,stack area and heap area
+		ii)JVM gives the control to the class loader,whose duty is to load all static elements into the method
+		area,once all the static elements are loaded in method area,the control will be given back to JVM
+		JVM will starts execution by executing the static block their after the main() execution starts
+		
+	->static methods can be invoked by using class name,hence object creation is not required to call the
+	static methods
+	
+	->static block and static method cannot access the non-static variables or instance variables because at
+	the time of creating static block and static method the memory for non-static variables or instance 
+	variables is not allocated hence they cannot be accessed.
+	
+		i)static block and static method can access the static variables
+		ii)instance block and instance method can access the instance variables
+		iii)instance block and instance method can also access the static variables
+		iv]static block and static method cannot access the non-static variables or instance variable because
+		memory is not allocated.
+		
+		
+Static-Variable
+---------------
+	1]If a variable is declared inside a class and outside a method with static keyword is called as a static
+	variable
+	2]static variables are such variables which are common for all the objects hence they are also known as
+	class level variables
+	3]static variables are intialized with default values automatically
+	4]we can use static variables without intializing the values
+	5]static variables are stored in method area
+	
+
+Static-Block
+------------
+	1]If we specify a group of statements within a pair of curly braces with static keyword is called as
+	static block
+	2]The main purpose of the static block is to intialize the static variables
+	3]If we want to execute any statements before the main method execution starts then those instructions
+	should be kept inside the static block,because static block starts its execution before the main()
+	4]We can write any number of static blocks in the program and they get executed in the same order in
+	which they has written.
+	
+	
+Static-Method
+-------------
+	1]If a method is declared with static keyword then it is called as static method
+	2]Static methods can be invoked by using class name,hence object creation is not required to call the
+	static methods.
+	
+	
+
+2]Explain what is instance variable ?
+	
+	->A variable which is declared inside a class and outside a method without anykeyword is called as
+	instance variable
+	->To access the instance variable value from main() we need to create the object for the class,using
+	this object we can access the instance variable value from main() method
+	->We can use instance variables without intializing any value
+	->Instance variables will be intialized with default values automatically
+	->Memory for instance variables is created in heap area
+	->Memory for instance variables can be de-allocated by the garbage collector.
+	
+	
+
+3]Explain what is instance block ?
+	
+	->If we specify a group of statements with in a pair of curly braces without any keyword is called as
+	instance block
+	->The main purpose of the instance block is to intialize the instance variables
+	->To get execute this instance block object creation must happen
+	->We can write any number of instance blocks and they get executed in the same order in which they has 
+	written.
+	
+
+
+4]Explain what is instance method ?
+	
+	->Instance method is a set of instructions written at one place to peform particular task is called as
+	instance method
+	->A method can also be called as function or module
+	->Every method consists of following 4 things:-
+		i)MethodName
+		ii)Parameters of a method
+		iii)Method body or Method defination
+		iv)Method return type
+	->If a method is not returning anything then the return type should be void
+	->If a method returns the value then the return type should be type of the value
+	->If a method is not accepting any parameters then it should be left
+	->If a method accepts parameters then the respective value or variables should be kept
+	inside the parenthesis.	
+	->To call instance method we need to create the object for the class.
+
+
+5]What are command line arguments ?
+	
+	->Command line arguments is the data which is passed to the main() method through command prompt
+	->In main() String[] args is the mechanism to store the command line arguments
+	
+	
+
+6]Explain main() method in java ?
+
+	->main() method in java will look like "public static void main(String[] args)"
+	->main() method is declared as public so that it will visible to JVM
+	->main() method is declared as static so that the JVM can call the main() method without object creation
+	->main is the name of method
+	->String[] args is the mechanism to store the command line arguments
+	
+	
+7]Explain Math class in java ?
+	
+	->Math is an inbuilt class in java which is coming from java.lang package
+	->Since it is an inbuilt class it is having the inbuilt methods like max(),min(),ceil(),floor(),round(),
+	abs(),sqrt()
+	->All the methods are static methods so to call them we has to use Math class
+
+
+8]What are packages ?
+	->A package as a name suggest it is group of classes,interfaces and other sub packages
+	->In java we use packages to organize our classes and interfaces
+	->In java thier are 2 types of packages:-
+		i)Built in packages
+		ii)User defined packages
+		
+	->Built in packages are provided by java api
+	
+	few examples:java.io,java.util and java.lang
+	
+	->UserDefined packages are created by the developers by thier own.
+	
+	
+9]Explain indetail about access modifiers ?
+	
+	->Access modifiers are also known as access specifiers in java
+	->Access specifiers is used to define the level of accessibility of either the members of class/interface 
+	or the level of accessibility of class/interface in a package
+	->Java provides 4 level of access modifiers with 3 keywords:-
+		1]public access modifier
+			->Public access modifier can be accessed anywhere inside the project
+			->Public access modifier is used with class,interface,variable,method and constructor
+		
+		2]protected access modifier
+			->Protected access modifier can be accessed anywhere inside the same package and the child class
+			of different package
+			->Protected access modifier is used with variable,method and constructor
+			
+		3]default access modifier
+			->Default access modifier can be accessed only with the same package,hence it is also known as
+			package level access modifier
+			->Default access modifier is used with class,interface,variable,method and constructor
+		
+		4]private access modifier
+			->Private access modifier can be accessed only with in the same class
+			->Private access modifier is used with variable,method and constructor.
+			
+			
+10]Explain what is final in java ?
+
+	->final is a keyword in java
+	->final is used with class,variable and method
+
+final class:-
+=============	
+->If a class is declared with final keyword then it is called as final class and final class cannot be
+extended which means we are not able to perform inheritance on final class.
+
+final variable:-
+================
+->If a variable is declared with final keyword then it is called as final variable and final variable value
+cannot be modified.
+
+final method:-
+==============
+->if a method is declared with final keyword then it is called as final method and final method cannot be
+overriden.
+
+11]Difference between this() method call and this keyword ?
+	->"this" keyword is used to resolve the shadowing problem
+	->this() is used to call one constructor from another constructor with in the same class.
+	
+
+12]Difference between super() method call and super keyword ?  
+		->"super" keyword is used to access the parent class instance members like variables,methods and
+		constructors from child class constructor or child class instance method
+		
+		->super() is used to call the parent class constructor from child class constructor 

@@ -1,0 +1,49 @@
+->In HTTPStatus codes thier are 4 different types
+    1]2XX for sucess
+    2]3XX for redirection(go to another location)
+    3]4XX for client error(Problem in request)
+    4]5XX for server error(Problem on server)
+
+
+1]2XX
+    i)200 --> Ok,request sucessfull
+    ii)201 --> Created,New Resource sucessfully Created
+    iii)202 --> Accepted,Request Accepted for processing
+    iv)204 --> No content,Request is sucessful but no content
+
+
+2]3XX
+    i)301 ---> Moved permanantly,Reosouce moved permanantly to new URL
+    ii)302 --> Found,Resource temporarily moved
+    iii)304 --> Not modified
+
+
+3]4XX
+    i)400 --> Bad request ,Invalid request
+    ii)401 --> Unauthorized,login Required
+    iii)403 --> forbidden ,Access Denied
+    iv)404 --> Not found,Page Not found
+    v)405 --> Method Not allowed,HTTP method is not supported
+    vi)408 --> Request timeout
+    vii)429 --> To many requests from client
+
+
+4]5XX
+    i)500 --> Internal Server Error,Something went wrong on server
+    ii)501 -->Not implemented,Server does not support this feature
+    iii)502 --> BadGateway ,invalid response from upstream server
+    iv)503 --> Service unavailable ,Server is down or unavailable
+    v]504 -->Gateway time out,Server will not get the response in time
+
+
+
+
+HttpMethods
+-----------
+
+
+1)Get : Server sends some data to client
+2)Post : client sends some data to be saved at server
+3)Put : client sends some modified data
+4}delete : clients ask to delete some data from server
+

@@ -1,0 +1,127 @@
+1]Explain indetail about Spring ?
+
+->spring is a powerful,lightweight,open source java framework used to build enterprise applications easily and efficiently
+
+->why spring ?
+    1]Before Spring framework was introduced,Developers used EJB(Enterprise Java Beans)
+    2]But in Enterprise Java Beans thier are lot of problems like:-
+        i)Very complex to write
+        ii]To much boilerplate code
+        iii]Hard to test
+        iv)Heavy and Slow
+        v)Tightly coupled code
+        vi)Difficult to maintains
+->So to overcome all this problems which are thier in Enterprise Java Beans,in the year 2003 spring framework was introduced by John rodson
+->By making use of spring framework
+    i)Simple and easy to write
+    ii)less boilerplate code compared with EJB 
+    iii]Easy to test
+    iv)lightweight and fast
+    v)loosely coupled code
+    vi)Easy to maintain
+
+
+2]Difference between Spring and SpringBoot ?
+
+1]In springframework we has to do lot of manual XML configurations,and we need to add the external server manually
+2]To create Spring project setup time is more
+3]Complexity is high
+4]springframework is used to develop large enterprise applications
+
+
+1]SpringBoot provides the auto configuration feature and thier is no need of adding the external server manually,it provides the embedded tomcat server
+2]To create SpringBoot project setup is less
+3]Complexity is simple
+4]SpringBoot is used to develop Modern Rest ApI's
+
+
+3]Explain Singleton design pattern ?
+
+->Singleton is a design pattern
+->Singleton ensures that a class has only one instance throught out the application and provides the global access point to it
+
+Why it is needed ?
+    ->Because some resource should exists only once like database connections,loggers etc
+    ->Creating multiple instance could waste memory and can cause the inconsistency
+    ->By default springframework follows singleton design pattern
+
+
+4]Explain what is IOC ?
+    ->IOC stands for Inversion of control
+    ->Inversion of control is a design principle where the control of object creation and dependency management is transfered from application code to
+        Spring IOC container
+    ->The IOC container in spring framework is responsible for:-
+        i)Creating objects (beans)
+        ii)Injecting dependencies
+        iii)Managing bean life cycle
+   
+    ->Thier are 2 containers:-
+        1]BeanFactory
+        2]ApplicationContext
+
+
+5]Explain what is dependency injection ?
+    ->Dependency injection is a technique to achieve IOC
+    ->Dependency injection is a design pattern,which means instead of creating objects inside a class,the container provides the required objects and dependencies
+    ->In spring we can peform dependency injection in 3 ways:-
+       1]field injection
+       2]setter injection
+       3]constructor injection(prefered way)
+
+6]What is Autowiring ?
+    ->Autowiring is a feature of Spring that automatically performs dependency injection
+    ->instead of manually configuring dependency,spring automatically injects them
+    ->In spring autowiring can be done in 3 ways:-
+        i)byType --> it uses class name
+        ii)byName --> field name and id should match then only it works
+        iii)Constructor --> expects a parameterised constructor
+
+7]What is primary and qualifier ?
+    ->when spring finds multiple beans of same type,it gets confused during autowiring and throws NoUniqueBeanException
+    ->Primary and Qualifier will resolve this conflict
+    ->When multiple beans are qualifing and when you want to pick single bean we use qualifier annotation
+    ->If multiple beans of sametype are present then bean marked with primary annotation be choosen by default by spring during autowiring
+    ->If we use primary and qualifier at the same time,qualifier will have the highest precendence
+
+
+8]Explain bean lifecycle ?
+    ->Spring bean lifecycle is a sequence of steps from bean creation to destruction,managed entirely by the spring IOC container
+        1]Container is started
+        2]Beans are initialized
+        3]Dependencies get injected
+        4]init()
+        5]Normal methods
+        6]Destroy
+
+
+9]Bean Scopes ?
+    ->SingletonDesign pattern : Spring follows singleton design pattern by default,which means a class has only one instance through out the application.
+    ->Prototype :  one class can have multiple objects
+
+
+
+10]Explain indetail about Spring MVC ?
+    ->SpringMVC is a webframework that is built on top of the spring framework that follows MVC design pattern to build web applications
+            M : Model
+            V : View
+            C : Controller
+
+Request flow:
+-------------
+    1]When browser sends the request
+    2]Dispatcher servlet ---> front controller ,receives all the requests
+    3]Handler Mapping ---> finds which controller to call
+    4]Controller ---> handles request,calls servide
+    5]Service ---> business logic
+    6]Repository --> Db operations
+    7]Controller --> gets data,adds Model
+    8]View Resolver --> finds which view to show
+    9]View --> render HTML with data
+    10]Browser shows the response
+
+->What is dispatcher servlet ?
+    ->Dispatcher servlet is a front controller which receives the request coming from the client and redirects them to corresponding controller.
+        
+
+
+

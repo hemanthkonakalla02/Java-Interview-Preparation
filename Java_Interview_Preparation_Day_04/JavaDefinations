@@ -1,0 +1,216 @@
+1]Explain what is operator ? and types of operators in java ?
+
+	->An operator is a symbol which is used to perform operations
+	->In java thier are 6 different types of operators:-
+		1]Arithematic Operators 
+		2]Assignment Operator
+		3]Relational Operators
+		4]Logical Operators 
+		5]Ternary Operator
+		6]Unary Operators    
+		 
+		
+->Arithematic Operators:-
+	1]Arithematic operators are used to perform arithematic operations between 2 operands
+	2]In arithematic operators thier are symbols like +,-,*,/ and %
+	
+->Assignment Operator:-
+	1]Assignment operator is used to assign a value to an variable
+	2]In assignment operator thier is only one symbol "=",we can also use arithematic operators along with
+	the assignment operator
+	
+
+->Relational Operators:-
+	1]Relational operators are used to compare the values of 2 operands and return boolean ie.. true or false
+	2]In Relational operators their are symbols like >,<,>=,<=,== and !=
+	
+
+->Logical Operators:-
+	1]Logical Operators is used to combine multiple boolean expressions and evaluate the overall result
+	as true or false
+	2]In Logical operators thier are Logical AND,Logical OR and LogicalNOT
+	3]In LogicalAND both the conditions must be true then only it will give the output as true
+	4]In LogicalOR if any one condition is true then it will give the output as true
+	5]LogicalNOT will simply reverse the boolean value,if it is true then it will make it as false
+	if it is false then it will make it as true.
+	
+	
+->Ternary Operator:-
+	1]In java ternary operator is a concise way to express if-else statement,it is also known as 
+	conditional statement.
+	
+
+->Unary Operators:-
+	1]Unary Operators perform on single operand
+	2]In unary operators their are symbols like +,-,! and incrementation/decrementation
+	
+
+	Incrementation
+	--------------
+		i)Incrementation is the process of incrementing the value by 1
+		ii)In incrementation thier are 2 types:-
+			1]Post incrementation
+			2]Pre incrementation
+			
+		->Post incrementation is the process of using the value first and then incrementing the value by 1
+		->Pre incrementation is the process of incrementing the value by 1 and using it
+		->for both post and pre incrementation we use ++ symbol
+		
+	Decrementation
+	--------------
+		i)Decrementation is the process of decrementing the value by 1
+		ii)In decrementation thier are 2 types:-
+			1]Post decrementation
+			2]Pre decrementation
+		
+		->Post decrementation is the process of using the value first and then decrementing the value by 1
+		->Pre decrementation is the process of decrementing the value by 1 and then using it
+		->for both post and pre decrementation we use -- symbol
+
+
+
+
+2]Explain indetail about conditional statements in java ?	
+
+	->Conditional statements are also known as decision making statements in java
+	->In java thier are 5 decision making statements:-
+		i)Simple if statement
+		ii)if-else statement
+		iii]if-else-if statement
+		iv]Nested if statement
+		v)switch statement
+		
+Simple if statement:-
+====================
+	1)if statement is used to test a specific condition,if the condition is true,if block code will get
+	executed,if the condition is false then the control will execute the remaning statements after if
+	block
+	
+if else statement:-
+===================
+	1)if else statement is used to test a specific condition,if the condition is true,if block code will
+	get executed,if the condition is false then else block code will get executed.
+	
+
+if else if statement:-
+======================
+	1)if else if statement is used to check multiple conditions and execute the specific block of statements
+	dependending upon on true condition among them.
+	
+	
+Nested if statement:-
+=====================
+	1)Having if statement in another if is called as nested if statement
+	2)if the first if condition is true,then only the control will enters the inner if condition
+	3)if the first if condition is false then the control will execute the first if,else block statements
+	4)if the inner if condition is true then only the control will execute the inner if statements
+	5)if the inner if condition is false then the control will execute the inner if,else block statements 
+	
+	
+switch statement:-
+==================
+	1)Switch statement is used to check multiple cases and execute the true case among them,if none of the
+	case is true,then it will execute the default statement,and to prevent the control falling to the
+	subsequent cases we use break.
+		
+
+
+3]Explain indetail about iterating statements in java ?
+
+	->Iterating statements are also known as looping statements
+	->Looping statements is used to execute the given code again and again until the specified condition
+	evaluates to false
+	->In java thier are 3 types of looping statements:
+		i)for loop
+		ii)while loop
+		iii)do while loop
+		
+
+for loop:-
+==========
+	1]for loop keeps on executing the code until the specified sequence exhausts
+	2]for loop has 3 parts:
+		i)intialization
+		ii)condition
+		iii)incrementation/decrementation
+	3]for loop is also known as entry control loop.
+	
+
+while loop:-
+============
+	1]while loop keeps on executing the code continously until the specified condition evaluates to false
+	2]while loop is also known as entry control loop.
+	
+	
+	
+do while loop:-
+===============
+	1]do-while loop is similiar to while loop but it gurantees that the code present inside the loop will
+	executes atleast once before the condition is tested
+	2]do while loop is also known as exist control loop.
+
+
+
+
+4]Explain what is break in java ?
+
+	->Break statement is used to exist from a loop or switch statement prematurely
+	->It stops the execution and transfers the control to the next statement after the loop/switch statement.
+
+
+
+
+5]Explain what is continue in java ?
+
+	->Continue statement is used to skip the current iteration of a loop
+	->It does not terminates the loop but it just skips the remaining code for that iteration.
+
+
+
+
+6]Explain indetail about comments in java ?
+
+	->In java comments are used to show the purpose of the code and prevents certain lines from the execution
+	->In java thier are 3 types of comments:-
+		i)Single line comment
+		ii)Multi line comments
+		iii)Documentational comments
+		
+		
+->Singleline comment:-
+======================
+	i)Single line comment is used to comment single line of code
+	ii)Single comment starts with // and continues to the end of the line
+	iii)The main purpose of the single line comment is to explain code in short
+	
+
+->Multiline comment:-
+======================
+	i)Multiline comment is used to comment multiple lines of code
+	ii)Multiline comment starts with /* and ends with */
+	iii)The main purpose of the multiline comment is to explain larger section of code
+	
+->Documentational comment:-
+===========================
+	i)Documentational comments are used to generate HTML documentation
+	ii)Documentational comments starts with /** and ends with */
+
+
+7]Explain indetail about Array in java ?
+
+	->An array is an collection of homogeneous data elements which means an array can store only single
+	type of values and arrays are treated as objects in java hence to create an array we has to make use of
+	new keyword,Array stores the values in contiginous memory locations
+	->Java supports different types of arrays:-
+		1]2d Array
+		2]Jagged Array
+		3]3d Array
+		
+->The 2 dimensional array in java programming is an array of array,in 2d array the data can be stored in rows
+and columns and we can access the index by using both row index and column index
+
+
+->The jagged array is an array of array,such that members arrays can be of different sizes
+
+
+->The 3d array is an collection of 2d array,The 3d array is also known as multidimensional array.

@@ -1,0 +1,148 @@
+1]Explain indetail about methods in java ?
+
+	->A method is a set of instructions written at one place to perform a particular task is called as method
+	->A method can also be called as function or module
+	->Every method consists of following 4 things:-
+		i)MethodName
+		ii)Return type of a method
+		iii)Parameters of a method
+		iv)Method Body or Method Defination 
+	->If  a method is not returning anything then the return type should be void
+	->If a method returns the value then the return type should be the type of value
+	->If a method does not accept any parameters then it should be empty of blank If method accepts parameters 
+		then the respective values or variables should be kept inside the parenthesis 
+	->On the basis of no of parameters and return type of a method thier are 4 types of methods 
+		 
+		i]Type-1 method
+			->Type-1 method is such a method which will not accept any parameters and it will not return any
+			value
+			
+		ii]Type-2 method
+			->Type-2 method is such a method which will accept the parameters but it will not have any return
+			type
+			
+		iii]Type-3 method
+			->Type-3 method is such a method which will not accept any parameters but it will return the value
+			
+		iv]Type-4 method
+			->Type-4 method is such a method which will accept parameters and also it will be having the return
+			type
+			
+	->A method can accepts any number of parameters but it will return only one value or list of values
+	
+Parameters:-
+============
+
+	->Parameters are the variables which are present inside the method syntax,to accept the values which are
+	passed to the method,they are also known as formal arguments
+	
+	
+Arguments:-
+===========
+
+	->Arguments are the variables or values which are passed to the method during method call,they are also
+	known as actual arguments.
+	
+	
+2]List few inbuilt methods of String class ?
+
+	->String class is having lot of inbuilt methods few of them are like:-
+			1)length()
+			2)charAt()
+			3]isEmpty()
+			4]isBlank()
+			5]contains()
+			6]startsWith()
+			7]endsWith()
+			8]indexOf()
+			9]lastIndexOf() 
+			10]equals()
+			11]equalsIgnoreCase()
+			12]substring()
+			13]replace()
+			14]replaceFirst()
+			15]toUpperCase()
+			16]toLowerCase()	
+
+
+3]Explain what is POJO class ?
+
+	->POJO stands for plain old java object
+	->POJO classes are simple java classes that holds data and have no specific restrictions
+	->POJO class may or many not have:-
+		i)Data members
+		ii)No args constructor
+		iii)Public setters and getters
+		iv)Implementing the serializable interface
+	->POJO class have any access modifiers for data members like(public,private,protected and default)
+	but private fields with public setters and getters is a best practice
+	->POJO class gives full control over the datamembers
+	->POJO class cannot be called as JavaBeans,but all JavaBeans are Pojo's
+
+
+
+4]Explain what is Bean class ?
+
+	->Bean classes are such java classes that have private fields,no argument constructor,public setters and
+	getters to access the private data members,and implementing the serializable interface
+	->Bean class must have private data members
+	->Bean class must have No arg constructor
+	->Bean class must have public setters and getters
+	->Bean class must implements Serializable interface
+	->Bean class provides the controlled access to private fields using setters and getters
+	->Bean classes are called as Pojo's
+
+
+5]Explain indetail about Constructor ?
+
+	->Constructor is a special method used to intialize objects,which dont have return type and the name of the
+	constructor should be same as of the class name,and the constructor will be called during the object 
+	creation
+	->In java thier are 2 types of constructors :-
+		i)Zero parameterised constructor
+		ii)parameterised constructor
+		
+Zero parameterised constructor:-
+================================
+	->Zero parameterised constructor is one that requires no arguments to be passed
+	
+Parameterised constructor:-
+===========================
+	->Paremeterised constructor is a constructor that requires specific number of arguments to be passed
+	
+	
+->If a java programmer is not providing any constructor in the class,then java compiler will attaches the
+default constructor and default constructor will have zero parameters and first line will be of super().
+
+
+
+
+6]Explain indetail about shadowing problem ?
+
+	->When constructor parameters are having the same name as instance variable names then java gives
+	priority to local variables is called as shadowing problem
+	->Due to shadowing problem the instance variables will not get updated with the values which are passed to
+	the constructor
+	->Shadowing problem can be resolved by making use of "this" in java
+	->"this" is a variable in java which will hold the address of current object and "this" is always associated
+	with instance variables.
+
+
+
+7]Explain indetail about constructor chaining ?
+
+	->Constructor chaining is the process of calling one constructor from another constructor either with in
+	the same class using this() or from sub class constructor to parent class constructor using super().
+	
+	->this() and super() should not be present at the same time in the constructor only any one of them should
+	present
+	
+	->this() or super() should be present at the first line of the constructor
+
+
+
+8]Explain indetail super in java ?
+
+	->super is a keyword in java
+	->super keyword is used to access the parent class instance members like (variables,methods,constructors)
+	from child class constructor or child class instance method.
