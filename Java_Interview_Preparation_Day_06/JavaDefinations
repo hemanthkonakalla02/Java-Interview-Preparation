@@ -4,7 +4,7 @@
 	the members belongs to the class rather than the instance of the class,As a result it can be accessed without
 	creating the object for the class.
 	
-	->To create static vaariables,static methods and static blocks "static" keyword is used with them
+	->To create static vaariables,static methods and static blocks "static" keyword is used with them 
 	
 	->static variables,static methods and static blocks are stored in method area
 	
