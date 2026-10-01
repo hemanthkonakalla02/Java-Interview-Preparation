@@ -9,7 +9,7 @@
 	->static variables,static methods and static blocks are stored in method area
 	
 	->The complete program execution will happens in the following sequence 
-		i)JVM is the process that runs on the Operating system which manages different memory areas like
+		i)JVM is the process that runs on the Operating system which manages different memory areas like 
 		method area,stack area and heap area
 		ii)JVM gives the control to the class loader,whose duty is to load all static elements into the method
 		area,once all the static elements are loaded in method area,the control will be given back to JVM
