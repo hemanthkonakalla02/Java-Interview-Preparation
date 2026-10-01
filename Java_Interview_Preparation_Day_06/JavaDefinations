@@ -1,0 +1,101 @@
+1]Explain indetail about static in java ?
+	
+	->static is a keyword in java,that can be used with variables,methods,blocks and nested classes,which means
+	the members belongs to the class rather than the instance of the class,As a result it can be accessed without
+	creating the object for the class.
+	
+	->To create static vaariables,static methods and static blocks "static" keyword is used with them
+	
+	->static variables,static methods and static blocks are stored in method area
+	
+	->The complete program execution will happens in the following sequence
+		i)JVM is the process that runs on the Operating system which manages different memory areas like
+		method area,stack area and heap area
+		ii)JVM gives the control to the class loader,whose duty is to load all static elements into the method
+		area,once all the static elements are loaded in method area,the control will be given back to JVM
+		JVM will starts execution by executing the static block their after the main() execution starts
+		
+	->static methods can be invoked by using class name,hence object creation is not required to call the
+	static methods
+	
+	->static block and static method cannot access the non-static variables or instance variables because at
+	the time of creating static block and static method the memory for non-static variables or instance 
+	variables is not allocated hence they cannot be accessed.
+	
+		i)static block and static method can access the static variables
+		ii)instance block and instance method can access the instance variables
+		iii)instance block and instance method can also access the static variables
+		iv]static block and static method cannot access the non-static variables or instance variable because
+		memory is not allocated.
+		
+		
+Static-Variable
+---------------
+	1]If a variable is declared inside a class and outside a method with static keyword is called as a static
+	variable
+	2]static variables are such variables which are common for all the objects hence they are also known as
+	class level variables
+	3]static variables are intialized with default values automatically
+	4]we can use static variables without intializing the values
+	5]static variables are stored in method area
+	
+
+Static-Block
+------------
+	1]If we specify a group of statements within a pair of curly braces with static keyword is called as
+	static block
+	2]The main purpose of the static block is to intialize the static variables
+	3]If we want to execute any statements before the main method execution starts then those instructions
+	should be kept inside the static block,because static block starts its execution before the main()
+	4]We can write any number of static blocks in the program and they get executed in the same order in
+	which they has written.
+	
+	
+Static-Method
+-------------
+	1]If a method is declared with static keyword then it is called as static method
+	2]Static methods can be invoked by using class name,hence object creation is not required to call the
+	static methods.
+	
+	
+
+2]Explain what is instance variable ?
+	
+	->A variable which is declared inside a class and outside a method without anykeyword is called as
+	instance variable
+	->To access the instance variable value from main() we need to create the object for the class,using
+	this object we can access the instance variable value from main() method
+	->We can use instance variables without intializing any value
+	->Instance variables will be intialized with default values automatically
+	->Memory for instance variables is created in heap area
+	->Memory for instance variables can be de-allocated by the garbage collector.
+	
+	
+
+3]Explain what is instance block ?
+	
+	->If we specify a group of statements with in a pair of curly braces without any keyword is called as
+	instance block
+	->The main purpose of the instance block is to intialize the instance variables
+	->To get execute this instance block object creation must happen
+	->We can write any number of instance blocks and they get executed in the same order in which they has 
+	written.
+	
+
+
+4]Explain what is instance method ?
+	
+	->Instance method is a set of instructions written at one place to peform particular task is called as
+	instance method
+	->A method can also be called as function or module
+	->Every method consists of following 4 things:-
+		i)MethodName
+		ii)Parameters of a method
+		iii)Method body or Method defination
+		iv)Method return type
+	->If a method is not returning anything then the return type should be void
+	->If a method returns the value then the return type should be type of the value
+	->If a method is not accepting any parameters then it should be left
+	->If a method accepts parameters then the respective value or variables should be kept
+	inside the parenthesis.	
+	->To call instance method we need to create the object for the class.
