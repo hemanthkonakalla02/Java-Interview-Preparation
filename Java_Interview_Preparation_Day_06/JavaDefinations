@@ -99,3 +99,27 @@ Static-Method
 	->If a method accepts parameters then the respective value or variables should be kept
 	inside the parenthesis.	
 	->To call instance method we need to create the object for the class.
+
+
+5]What are command line arguments ?
+	
+	->Command line arguments is the data which is passed to the main() method through command prompt
+	->In main() String[] args is the mechanism to store the command line arguments
+	
+	
+
+6]Explain main() method in java ?
+
+	->main() method in java will look like "public static void main(String[] args)"
+	->main() method is declared as public so that it will visible to JVM
+	->main() method is declared as static so that the JVM can call the main() method without object creation
+	->main is the name of method
+	->String[] args is the mechanism to store the command line arguments
+	
+	
+7]Explain Math class in java ?
+	
+	->Math is an inbuilt class in java which is coming from java.lang package
+	->Since it is an inbuilt class it is having the inbuilt methods like max(),min(),ceil(),floor(),round(),
+	abs(),sqrt()
+	->All the methods are static methods so to call them we has to use Math class
