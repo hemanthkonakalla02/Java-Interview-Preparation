@@ -8,7 +8,7 @@
 1]2XX
     i)200 --> Ok,request sucessfull
     ii)201 --> Created,New Resource sucessfully Created
-    iii)202 --> Accepted,Request Accepted for processing
+    iii)202 --> Accepted,Request Accepted for processing 
     iv)204 --> No content,Request is sucessful but no content
 
 
