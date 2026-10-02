@@ -11,7 +11,7 @@
 		
 	->In loosely coupled has-a relationship the aggregate object exists
 	->In tightly coupled has-a relationship the composite object exists
-	
+	 
 Aggregate Objects:-
 ===================
 	->Aggregate objects are such objects which can be accessed even though enclosing object is not accessible
