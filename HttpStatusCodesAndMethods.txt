@@ -38,9 +38,9 @@
 
 
 
-HttpMethods with explanation
------------------------------
-
+//HttpMethods with explanation
+------------------------------
+get(),post(),put(),delete()
 
 1)Get : Server sends some data to client
 2)Post : client sends some data to be saved at server
