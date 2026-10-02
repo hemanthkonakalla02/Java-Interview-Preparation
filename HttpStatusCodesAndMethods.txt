@@ -38,8 +38,8 @@
 
 
 
-HttpMethods
------------
+HttpMethods with explanation
+-----------------------------
 
 
 1)Get : Server sends some data to client
