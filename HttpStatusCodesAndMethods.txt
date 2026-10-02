@@ -2,7 +2,7 @@
     1]2XX for sucess
     2]3XX for redirection(go to another location)
     3]4XX for client error(Problem in request)
-    4]5XX for server error(Problem on server)
+    4]5XX for server error(Problem on server) 
 
 
 1]2XX
