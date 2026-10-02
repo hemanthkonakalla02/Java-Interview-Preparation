@@ -1,0 +1,21 @@
+1]Explain indetail about Aggregation and Composition ?
+
+	->In java thier are 2types of relationships:-
+		i)is-a relationship
+		ii)has-a relationship
+	->is-a relationship can be achieved by making use of inheritance
+	->has-a relationship can be achieved by making use of aggregation and composition
+	->has-relationship is of 2 types:-
+		i)loosely coupled has-a relationship
+		ii)tightly couples has-a relationship
+		
+	->In loosely coupled has-a relationship the aggregate object exists
+	->In tightly coupled has-a relationship the composite object exists
+	
+Aggregate Objects:-
+===================
+	->Aggregate objects are such objects which can be accessed even though enclosing object is not accessible
+
+Composite Objects:-
+===================
+	->Composite objects are such objects which are not accessible if the enclosing object is not accessible.
