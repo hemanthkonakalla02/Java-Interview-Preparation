@@ -32,3 +32,23 @@ Composite Objects:-
 	->After serializing the data,if i change the serial version UID then de-serialization will not work
 	because the serial version UID is changed,so serial version UID should be same while doing serialization
 	and de-serialization
+
+
+3]Explain indetail about GarbageCollection ?
+
+	->In java garbage means unreferenced objects
+	->Garbage collection is the process of reclaiming the runtime unused memory automatically,in other words
+	it is a way to destroy the unused objects
+	->In java it is performed automatically,so java provides better memory management
+	
+How GarbageCollection works in java:-
+=====================================
+	->In java garbage collection is an automatic process
+	->Automatic garbage collection is the process of looking at heap area and identifying which objects are in
+	use and which objects are not in use
+	->An use object or referenced object means some part of the program still maintains a pointer to that object
+	->An un-used object or unreferenced object means no longer refered by any part of the program,so the memory
+	used by the unreferenced object can be reclaimed
+	->Programmer does not need to mark the object explicitly to delete
+	->Garbage collection implementation lives in JVM.
+	
