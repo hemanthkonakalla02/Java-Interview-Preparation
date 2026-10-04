@@ -28,7 +28,7 @@ Composite Objects:-
 	serialization
 	->Where as de-serialization is the reverse process,where the byte stream is used to re-create the actual
 	java object in memory is called as de-serialization
-	->If i dont want to serialize any data then i use trasient keyword
+	->If i dont want to serialize any data then i use transient keyword
 	->After serializing the data,if i change the serial version UID then de-serialization will not work
 	because the serial version UID is changed,so serial version UID should be same while doing serialization
 	and de-serialization
