@@ -52,3 +52,43 @@ How GarbageCollection works in java:-
 	->Programmer does not need to mark the object explicitly to delete
 	->Garbage collection implementation lives in JVM.
 	
+
+
+4]Explain indetail about interface ?
+
+	->An interface is a blueprint of a class
+	->An interface can have abstract methods and variables,by default the variables which are declared inside
+	the interface are public static final
+	->An interface cannot be instantiated,which means we are not able to create the object for the interface
+	but we can create the reference for an interface,using this interface reference we can achieve loose
+	coupling hence we can achieve polymorphism
+	->Inorder to access the members of an interface the class uses implements keyword
+	->In the subclass we has to override the abstract methods or it will shows the compile time error
+	->If the subclass is providing the implementation for the abstract methods then it is called as
+	implementation class
+	->A class can implement any number of interfaces and it will not lead to diamond shape problem
+	
+		->If thier is a relationship between class to class  we use extends keyword
+		->If thier is a relationship between interface to interface we use extends keyword
+		->If thier is a relationship between class to interface we use implements keyword
+	
+	->In java we cannot achieve multiple inheritance using classes,but by using interface we can multiple
+	inheritance in java
+	
+	->If a class partially implements an interface,then the class should be declared as abstract class,but by
+	using abstract class  we cannot achieve 100% abstraction or pure abstraction because an abstract class can
+	have concrete methods,but by using interface we can achieve 100% abstraction or pure abstraction because an
+	interface can have only abstract methods till java7,but in java8 interface where enhanced with default and
+	static method,in java9 interface where enhanced with private method so abstraction is slightly reduced
+	
+	->A class can extends a class and also implements the interface at the same time
+	
+	->An interface can be created without having any variables and methods,such interfaces are called as 
+	tagged interface or marker interface or empty interface
+	
+	->We create empty interface to give meta data to JVM or libraries so that they apply some special behaviour
+	on those classes
+	
+	->for an example: Serializable is an empty interface that tells the JVM that objects can be serialized. 
+	
+	
