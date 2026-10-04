@@ -92,3 +92,28 @@ How GarbageCollection works in java:-
 	->for an example: Serializable is an empty interface that tells the JVM that objects can be serialized. 
 	
 	
+
+
+5]Difference between abstract class and interface
+
+1]Abstract class is declared using abstract keyword
+2]Abstract class can have instance variables and static variables
+3]Abstract class can have abstract methods and concrete methods
+4]Abstract class supports single inheritance(one class can extends one abstract class)
+5]Abstract class methods are public,protected and default
+6]Abstract class provides partial abstraction because it can have concrete methods
+7]Abstract class can have constructors for intializing variables
+
+
+
+1]An interface is declared using interface keyword
+2]All variables in interface are by default public static final
+3]An interface can have only abstract methods till java7
+	but in java8 interface where enhanced with default and static method
+	In java9 interface where enhanced with private method
+4]All methods in interface are public
+5]Interface supports multiple inheritance
+6]Interface provides 100% abstraction or pure abstraction till java7,but in java8 interface where enhanced with
+default and static methods,in java9 interface where enhanced with private method,so abstraction is slightly
+reduced
+7]Interface cannot have constructors.
