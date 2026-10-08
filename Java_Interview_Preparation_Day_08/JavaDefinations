@@ -1,0 +1,17 @@
+1]Explain indetail about java8 features ?
+
+	1]Default and static method in interface
+		1]In java8 interface where enhanced with default and static method
+		2]default method allows backward compatability and it can be overriden by the implementing classes
+		3]static method it self belongs to the interface and it cannot be overriden
+		
+	->In java9 interface where enhanced with private method
+	->In java9 private method wad introduced to overcome the code duplication in interface
+	
+	
+	
+	2]Functional Interface
+		->functional interface is a interface that can have only one abstract method and it can have any
+		number of non abstract methods like default,static and private
+		->funtional interface is annotated using @functional interface
+		
