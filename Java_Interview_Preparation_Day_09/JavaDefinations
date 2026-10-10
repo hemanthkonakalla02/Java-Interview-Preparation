@@ -14,3 +14,122 @@
 	->It allows us to iterate the collections in more functional and readable way compared with traditional
 	loops
 	->forEach() works for all the collections.
+
+
+3]Explain indetail about inner class in java ?
+
+	->In java an inner class is a class that is declared inside another class is called as inner class in java.
+	->Inner classes where mainly introduced to group the logically related classes together making the code
+	more readable and maintainable
+	->Java supports 4 types of inner class:-
+		i)Nested non static inner class
+		ii)Nested static inner class
+		iii)Local Class
+		iv)Anonymous inner class
+		
+
+Nested non static inner class:-
+===============================
+	->Nested non static inner class dont have any static keyword
+	
+	Properties:
+		i)It requires the instance of the outer class to be created
+		ii)It can access all the members of outer class including the private one's
+		
+
+Nested static inner class:-
+============================
+	->Nested static inner class is declared using static keyword
+	
+	Properties:
+		i)It does not requires the instance of the outer class
+		ii)It can access the static members of the outer class
+		iii)It cannot access the non static members of the outer class
+
+Local class:-
+=============
+	
+	->Local class in java are classes which are defined with in a block of code such as with in a method,constructor
+	or intializer block
+	->Local classes are similar to inner classes but they are local to the block of code in which they are
+	defined
+	->Local class can access the variables and parameters of the enclosing block
+	
+	
+Anonymous inner class:-
+=======================
+	
+	->Anonymous inner class is a type of inner class in java they dont have any name
+	->They are typically used for one time use,often declared within the body of another class or method
+	
+	
+1]Can we have more than one class in java file ?
+
+	->Yes,we can have more than one class in a java file
+	
+
+2]Can we have more than one public class in a java file ?
+	
+	->No,we cannot have more than one public class in a java file
+
+	
+3]How many class files will be generated when multiple classes are present in a java file ? 
+
+	->Multiple class files will be generated when multiple classes are present in a java file
+	
+
+4]Can we have main method in all the classes present at root level of java file ?
+
+	->Yes,we can have main method in all the classes present at root level of java file,but while execution
+	it will ask us to select which class to execute or run
+	
+
+5]If a java file contains more than one class at the root level are they considers as inner classes ?
+
+	->No
+	
+6]Can we have more than one inner class in a given class ?
+
+	->Yes,we can have more than one inner class in a given class
+	
+
+7]Can we create a public/private/protected inner class ?
+	
+	->Yes,we can create public/private/protected inner class
+	
+	
+8]Can we create a static/abstract/final inner class ?
+	
+	->Yes,we can create static/abstract/final inner class
+	
+
+9]Can we create a main method inside the inner class ?
+
+	->Yes,in static inner class we can create main method.
+	->we cannot create main method in non static inner class
+	
+	
+10]How to access the outer class variables when they are duplicated in inner class ?
+
+	->Local variables are accessed directly
+	->To access the instance variable of inner class we use this,and variable name
+	->To access the instance variable of outer class we use className,this and variable name
+	
+11]Can an inner class extend any non-abstract class ?
+
+	->Yes,an inner class can extend any non-abstract class.
+	
+	
+12]Can an inner class extend an abstract class ?
+	
+		->Yes,an inner class can extend an abstract class.
+		
+
+13]Can an inner class implement any interface ?
+
+	->Yes,an inner class can implement any interface
+	
+	
+14]Can we call inner classes outside the outer class
+
+	->Yes,we can call the inner classes outside the outer class
