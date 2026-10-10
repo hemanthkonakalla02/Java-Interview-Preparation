@@ -1,0 +1,96 @@
+1]Explain indetail about ExceptionHandling ?
+
+	->Exception handling in java is a powerful mechanism to handle runtime errors and ensuring the normal flow
+	of the application is called as Exception handling.
+	->An exception is an event that disrupts the normal flow of the program and it is an object that is thrown
+	at runtime when an error occurs,Exceptions can be caused by various reasons such as invalid input,device
+	failures,loss of network connection or code errors
+	->Their are 2 types of exceptions:-
+		i)checked exception (compile time exceptions)
+		ii)unchecked exception (run time exceptions)
+		
+Checked Exception:-
+===================
+	->The exceptions which are checked by the compiler wheather the programmer is handling or not for smooth
+	execution of program during runtime is called as checked exception
+	->checked exceptions should be handled by the programmer
+	
+	few examples: 
+		i)IOexception : This exception occurs when an IO Operation fails or interupted
+		ii)FileNotFoundException : This exception occurs when iam trying to read the file which was not found
+		iii)SQLException : This exception provides the information regarding the database access errors
+		
+	->We can also create our own custom checked exception by extending the Exception class
+
+Unchecked Exception:-
+=====================
+	->The exceptions which are not checked by the compiler wheather the programmer is handling or not is
+	called as unchecked exception
+	
+	few examples:
+		i)ArithematicException : This exception occurs when an exceptional arithematic condition has occured
+		such as division by zero.
+		ii)NullPointerException : This exception occurs when an application attempts to use null in a case
+		where an object is required
+		iii)ArrayIndexOutOfBoundsException : This exception is thrown to indicate that an array has been
+		accessed with illegal index
+		iv)illegalArgumentException: This exception is thrown to indicate that a method has been accessed with
+		illegal argument.
+	->We can also create our own custom unchecked exception by extending the RuntimeException class
+
+->In Exception handling thier are 5 keywords:-
+	1]try-block: The block of code where an exception might occurs
+	2]catch-block : The block of code that handles the exception
+	3]finally-block : The block of code that is executed regardless wheather an exception occurs or not
+	4]throw : is used to explicitly throw an exception from a method or block of code.
+	5]throws : is used with method signature to declare a exception,that a method can throw an exception
+	
+	throws cannot handle the exception,it deligades the exception to its method caller
+	To handle exceptions in java we need to use only try-catch blocks
+	
+	
+->we can use this try-catch-finally blocks in different combinations
+	i)try-catch
+	ii)try-finally
+	iii)try-catch-finally
+	iv)try- with multiple catch blocks
+	v]try with resource
+	
+	
+->Difference between Error and Exception ?
+
+	1]An Exception is an event that disrupts the normal of the program
+	2]It usually happens inside the program logic or external condition
+	3]Exception is coming from java.lang.Exception class
+	4]Programmer need to handle the exception
+	
+	Example:ArithematicException,SQLException,NullPointerException.
+	
+	1]Error indicates a serious problem that caused the outside the control of a program
+	2]Error is coming from java.lang.Error class
+	3]Errors are usually caused by JVM or system components but not with the program logic
+	
+	Example:OutOfMemoryError,StackOverFlowError
+	
+	Exception handling hierarchy
+	============================
+		java.lang.Object
+    			|
+    			└── java.lang.Throwable
+           	 │
+            	 ├── java.lang.Exception
+            	 │     │
+            	 │     ├── java.lang.RuntimeException (Base of ALL Unchecked Exceptions)
+            	 │     │     ├── ArithmeticException
+            	 │     │     ├── NullPointerException
+            	 │     │     ├── ArrayIndexOutOfBoundsException
+            	 │     │     └── IllegalArgumentException
+            	 │     │
+            	 │     └── Direct Subclasses (Checked / Compile-Time Exceptions)
+            	 │           ├── IOException
+            	 │           │     └── FileNotFoundException
+            	 │           └── SQLException
+            	 │
+            	 └── java.lang.Error (JVM / System Faults - Unchecked)
+                  ├── OutOfMemoryError
+                  └── StackOverflowError
