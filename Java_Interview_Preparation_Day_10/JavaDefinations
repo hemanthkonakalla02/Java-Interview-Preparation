@@ -94,3 +94,23 @@ Unchecked Exception:-
             	 └── java.lang.Error (JVM / System Faults - Unchecked)
                   ├── OutOfMemoryError
                   └── StackOverflowError
+
+
+
+2]Explain indetail about method references ?
+	
+	->Method references is a java8 feature
+	->Method references in java is a  shorthand,more readable way to use lambda expressions for invoking 
+	methods or constructors,they allow you to reference methods or constructors directly using :: symbol
+	
+	->Advantages:-
+		i)cleaner code
+		ii)Reduces boiler plate code
+		iii)Reusability of existing methods
+		
+		
+	->Thier are 4 types of method references:
+		i)Reference to a static method
+		ii)Reference to a instance method
+		iii)Reference to a instance method of arbitary object of particular type
+		iv)Reference to a constructor.
