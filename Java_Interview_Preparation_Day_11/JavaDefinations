@@ -1,0 +1,17 @@
+1]Explain indetail about comparable and comparator ?
+
+	->Comparable is used to define the natural ordering of an object,it allows an object to compare itself
+	with another object of same type,it is implemented directly by the class you want to sort
+	->Comparable belongs to java.lang package
+	->Comparable requires  overriding the compareTo() which take 1 arguments
+	->Comparable modifies the actual class to make it sortable
+	->Comparable provides single,default sorting logic
+	
+	
+	->Comparator is used to define external or custom ordering,it allows to sort the object based on different
+	attibutes or criteria without modifying the original class,it is implemented in seperate helper class or as
+	a lambda expression
+	->Comparator belongs to java.util package
+	->Comparator requires overriding the compare() which takes 2 arguments
+	->Comparator does not modify the class,making it perfect for sorting the third party classes you cannot edit
+	->Comparator allows you create multiple distinct sorting strategies
