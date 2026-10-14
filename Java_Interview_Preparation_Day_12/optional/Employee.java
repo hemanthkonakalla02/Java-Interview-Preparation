@@ -7,7 +7,7 @@ public class Employee
 	private int eid;
 	private String name;
 	private float salary;
-	private String address;
+	private String address; 
 	
 	public Employee(int eid, String name, float salary, String address) {
 		super();
