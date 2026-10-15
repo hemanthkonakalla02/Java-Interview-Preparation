@@ -15,3 +15,20 @@
 	->Comparator requires overriding the compare() which takes 2 arguments
 	->Comparator does not modify the class,making it perfect for sorting the third party classes you cannot edit
 	->Comparator allows you create multiple distinct sorting strategies
+
+
+2]Explain indetail about streams ?
+
+	->In java8, a stream is a sequence of elements supporting sequential and parellel aggregate operations
+	it brings functional programming capabilities to java,and the most point to remember is,stream is not a 
+	data structure and it does not store any data,instead it takes the data from source like Collection or Array
+	it pipes through a series of operations and it delivers the result
+	
+	Life cycle of a stream:-
+	========================
+	->A stream pipeline always consists of 3 parts:-
+		i)Source : where the data comes from
+		ii)Intermediate Operations : These transforms the data like filter() or map(),A key point here is that
+		they are lazy,they dont actually execute until a terminal operation is called.
+		iii)Teriminal Operations : This triggers the execution and consumes the stream like collect() or
+		forEach(),once teriminal operation is invoked,the stream cannot be reused.
