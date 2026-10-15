@@ -1,0 +1,6 @@
+1]Explain Optional in java ?
+
+	->Optional is a class introduced in java8 in the java.util package,it represents a value that may or may not
+	be present,it helps us handle absent values explicitly and reduces direct null checks
+	->Optional is an inbuilt class so it has inbuilt methods like of(),ofNullable(),isPresent(),ifPresentOrElse()
+	->It is commonly used as a method return type when a result may be absent.
