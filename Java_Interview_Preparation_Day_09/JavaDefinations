@@ -133,3 +133,21 @@ Anonymous inner class:-
 14]Can we call inner classes outside the outer class
 
 	->Yes,we can call the inner classes outside the outer class
+
+
+2]Explain indetail about lambda expressions ?
+	->Lambda expression is a way of writing the code in minimum way by creating anonymous function
+	->Lambda expression is used only for implementing the functional interface
+	->Lambda expression has 3 components:-
+		i)Arguments
+		ii)Arrow Token
+		iii)Method Body
+		
+	
+3]Explain indetail about forEach() method ?
+
+	->Java8 introduced forEach() method which internally uses functional interfaces like consumer and 
+	biConsumer
+	->It allows us to iterate the collections in more functional and readable way compared with traditional
+	loops
+	->forEach() works for all the collections.
