@@ -9,7 +9,7 @@ public class Employee
 	private String dept;
 	
 	public Employee(String name, float salary, String dept) {
-		super();
+		super(); 
 		this.name = name;
 		this.salary = salary;
 		this.dept = dept;
