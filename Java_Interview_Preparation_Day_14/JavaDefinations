@@ -1,0 +1,48 @@
+1]Explain indetail about MultiThreading ?
+
+	->Multithreading is a programming technique,where multiple threads are executed concurrently with in a 
+	single process is called as multithreading.
+	->Thread is the smallest unit of a program that can execute independently allowing multitasking and efficient
+	utilization of a CPU
+	
+	->Key Features of MultiThreading:-
+		
+		i)Concurrent Execution
+			->Multiple threads runs simultaneosuly improving the application performance
+		
+		ii)Light Weight
+			->Threads within the same process share the same memory space making them less resource intensive
+			than seperate processes
+			
+		iii)Independent
+			->Threads operate independently,if one thread encounters an issue another continue running
+			
+			
+	->Advantages of MultiThreading:-
+		
+		i)Improved Performance
+			->By performing multiple tasks simultaneosly multithreading can enhance the application speed and 
+			responsiveness
+		
+		ii)Better CPU utlization
+			->Multithreading ensures that no CPU time is wasted while waiting for IO or other tasks
+			
+		iii)Better Resource sharing
+			->Threads share memory and resource reducing the overhead
+			
+			
+->In java we can create the thread in 2 ways:-
+	i)By extends Thread class
+	ii)By implements Runnable interface
+	
+->Implementing Runnable interface is most prefered way to create the Thread,because if i create the thread
+by extending the Thread class i cannot extend another class in future,because java does not support multiple
+inheritance,so to overcome this problem they introduced Runnable interface,and a class can implements any no
+of interfaces
+
+
+->Thread LifeCycle:
+	->New : Thread is created,but not yet started
+	->Runnable : Thread is running or it is ready to run
+	->Blocked/Waiting : Thread is waiting for resource or signal
+	->Teriminated : Once thread has finished its execution then the thread will be teriminated.
