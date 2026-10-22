@@ -46,3 +46,19 @@ of interfaces
 	->Runnable : Thread is running or it is ready to run
 	->Blocked/Waiting : Thread is waiting for resource or signal
 	->Teriminated : Once thread has finished its execution then the thread will be teriminated.
+
+
+
+->Explain RaceCondition problem ? along with the solution ?
+	
+	->Race condition occurs when 2 or more threads try to access the shared data and try to modify it
+	simultaneously leading to the unpredictable result is called as RaceCondition
+	
+	->synchronized keyword in java helps us to prevent the race condition problem,by ensuring that only one
+	thread can access a method or block of code that a given time for given object.
+	
+	
+->Explain what is deadlock ?
+
+	->deadlock happens when 2 or more threads are waiting for each other resources in a circular manner so
+	none can be proceed is called as deadlock.
