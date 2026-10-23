@@ -62,3 +62,27 @@ of interfaces
 
 	->deadlock happens when 2 or more threads are waiting for each other resources in a circular manner so
 	none can be proceed is called as deadlock.
+
+
+->Explain sleep(),join(),wait(),notify() and notifyAll() ?
+
+	->sleep() : pauses the current thread for fixed time
+	
+	->join() : pauses the current thread until another thread completes its execution
+	
+	->wait() : This can be called only inside the synchronized blocks or methods
+				Current thread will be blocked until its notify back
+				
+	->notify() : This is called in synchronized
+				This will inform the blocked thread to resume thier operations
+	
+	->notifyAll() : When multiple threads are waiting
+					This will inform all the waiting threads to resume their operations
+					
+					
+
+->Explain volatile ?
+
+	->Volatile is a keyword in java
+	->Volatile ensures that any thread reading the variable will see the latest value written by another thread
+	providing the visibility across the threads.
